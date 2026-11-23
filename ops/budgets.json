@@ -1,18 +1,18 @@
 {
- "about": "Время шагов тактов на сервере, из которого считаются потолки юнитов (RuntimeMaxSec) и ожидание замка (LOCK_WAIT_SECONDS в ops/run.sh). Потолок юнита = ceil(сумма шагов × safety / round_to) × round_to, у collect и daily плюс ожидание замка = потолок rebuild. Равенство с ops/systemd/*.service и run.sh сверяет tests/test_ops_units.py. ОЦЕНКА: числа шагов — замер образца сервера 30.09.2026 (его шаг нау-каста и здоровья — здесь health), не Яндекса; тесты такта и прогон «в будущем» (те же тесты с FAKE_TODAY) — замер ноутбука одним процессом (laptop.tact_tests_one_process, 302 с), сборка — не ниже полной сборки ноутбука (full_build, 714 с). Ноутбук — блок laptop: тесты такта одним процессом (как у образца, решение ведущего 24.11.2026) 302 с, сборка с --fast 192 с; полная сборка и её память — блок full_build (замер ведущего на ноутбуке: 714 с, 12 процессов, ≈ 230 МБ). Порядок: первый суточный такт руками на сервере (ops/README.md, «Установка», шаг 6) → время шагов из журнала → сюда, status=measured и measured_on → потолки юнитов и LOCK_WAIT_SECONDS → юниты заново — до включения таймеров.",
- "status": "estimate",
- "measured_on": null,
+ "about": "Время шагов тактов на сервере, из которого считаются потолки юнитов (RuntimeMaxSec) и ожидание замка (LOCK_WAIT_SECONDS в ops/run.sh). Потолок юнита = ceil(сумма шагов × safety / round_to) × round_to, у collect и daily плюс ожидание замка = потолок rebuild. Равенство с ops/systemd/*.service и run.sh сверяет tests/test_ops_units.py. ЗАМЕР сервера 23.11.2026 (блок server): шаг = max(замер, прежняя оценка); тесты такта и прогон «в будущем» (те же тесты с FAKE_TODAY) — замер ноутбука одним процессом (laptop.tact_tests_one_process, 302 с), сборка — не ниже полной сборки ноутбука (full_build, 714 с). Ноутбук — блок laptop: тесты такта одним процессом (как у образца, решение ведущего 24.11.2026) 302 с, сборка с --fast 192 с; полная сборка и её память — блок full_build (замер ведущего на ноутбуке: 714 с, 12 процессов, ≈ 230 МБ). Порядок: первый суточный такт руками на сервере (ops/README.md, «Установка», шаг 6) → время шагов из журнала → сюда, status=measured и measured_on → потолки юнитов и LOCK_WAIT_SECONDS → юниты заново — до включения таймеров.",
+ "status": "measured",
+ "measured_on": "2026-11-23",
  "safety": 1.5,
  "round_to": 60,
  "seconds": {
   "pip": 120,
   "collect_morning": 300,
-  "future_tests": 302,
+  "future_tests": 399,
   "archive_status_health": 60,
   "collect_evening": 420,
   "health": 60,
-  "tact_tests": 302,
-  "build": 720,
+  "tact_tests": 386,
+  "build": 1233,
   "publish": 120,
   "verify_timeout": 600,
   "prune": 60
@@ -59,5 +59,25 @@
   "workers": 12,
   "measured_on": "2026-11-24",
   "how": "замер ведущего на ноутбуке: полная сборка выпуска книги 1.4 (выпуск dabec401586e; 2 000 прогонов, развилки с перевыводом); память — дерево процессов, пик по опросу раз в секунду, при MemoryMax=512M"
+ },
+ "server": {
+  "measured_on": "2026-11-23",
+  "how": "первый суточный такт руками на сервере (yandex850-daily 21:09:34–21:37:18 UTC) и утренний сбор (21:02:50–21:09:34 UTC); шаг = max(замер, прежняя оценка): у шагов с сетью и повторами оценка выше замера",
+  "workers": "auto (4 ядра)",
+  "memory_peak_mb": 120,
+  "daily_seconds": 1664,
+  "measured": {
+   "pip": 1,
+   "collect_morning": 5,
+   "future_tests": 399,
+   "archive_status_health": 1,
+   "collect_evening": 4,
+   "health": 1,
+   "tact_tests": 386,
+   "build": 1233,
+   "publish": 7,
+   "verify_timeout": 31,
+   "prune": 1
+  }
  }
 }

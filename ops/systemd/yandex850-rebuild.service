@@ -31,7 +31,7 @@ ExecStart=/bin/bash /srv/dash/repo-850-yandex/ops/run.sh rebuild
 # равенство сверяет tests/test_ops_units.py. ДО ЗАМЕРА НА СЕРВЕРЕ ЭТО ОЦЕНКА:
 # потолок ниже настоящего времени убил бы пересборку на середине, rebuild.tried
 # запомнил бы коммит, и выпуск на новом коде не вышел бы до вечера (урок 850oa).
-RuntimeMaxSec=2940
+RuntimeMaxSec=3780
 SyslogIdentifier=yandex850
 
 StateDirectory=yandex-850

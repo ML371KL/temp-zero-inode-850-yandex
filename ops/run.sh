@@ -100,7 +100,7 @@ export YANDEX_STATE_DIR="$STATE_DIR"
 # такт ждёт столько же, сколько пересборка может держать замок: её потолок
 # RuntimeMaxSec (ops/systemd/yandex850-rebuild.service, расчёт — ops/budgets.json;
 # равенство сверяет тест).
-LOCK_WAIT_SECONDS=${LOCK_WAIT_SECONDS:-2940}
+LOCK_WAIT_SECONDS=${LOCK_WAIT_SECONDS:-3780}
 
 # Каталоги кода, который считает число или шапку выпуска (общий слой common,
 # календарь data/calendar.json): их правка с опубликованного выпуска будит

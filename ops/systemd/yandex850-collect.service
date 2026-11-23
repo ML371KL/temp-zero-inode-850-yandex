@@ -33,7 +33,7 @@ RestartPreventExitStatus=64 78
 # ничего). Потолок = прогон с запасом + ожидание замка (LOCK_WAIT_SECONDS =
 # потолок пересборки); расчёт и замер — ops/budgets.json, равенство сверяет
 # tests/test_ops_units.py. ДО ЗАМЕРА НА СЕРВЕРЕ ЭТО ОЦЕНКА.
-RuntimeMaxSec=4140
+RuntimeMaxSec=5100
 SyslogIdentifier=yandex850
 
 StateDirectory=yandex-850
