@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Книга 1.4 (правка этапа 4): каждый ключ книги — своё правило методики (docs/MODEL.md §17, «Ключи книги 1.4»);
 закреплённые числа книги 1.4; объяснение гейта капитала — на числах сборки; порчи из списка ошибок ниже порога, п. 4
-(рабочий файл, раздел 4). Книга 1.3 без ключей 1.4 — бит в бит: `tests/test_book_13.py` (книга из коммита 469d33d)."""
+(рабочий файл, раздел 4). Книга 1.3 без ключей 1.4 — бит в бит: `tests/test_book_13.py` (копия книги из коммита 469d33d)."""
 from __future__ import annotations
 
 import copy
@@ -19,7 +19,8 @@ from model.core import Context, _cohort_da, _general_part, _tax_split, anchor_re
 from model.facts import core_facts, load_facts, need, one_composition
 from model.grid import evaluate
 from model.rederive import Calendar, da_check, derive_world_weights, ssum
-from tests.test_book_13 import BOOK_13, _git_book
+from tests.old_books import old_book
+from tests.test_book_13 import BOOK_13
 
 POINT_14, MEDIAN_14 = 3204.2616360730817, 3009.9         # книга 1.4, малая полоса — 400 прогонов, семя книги
 FLOW_14 = 12.745006662671289                             # разница потоков 9М26, млрд ₽
@@ -182,7 +183,7 @@ def test_land_is_written_off_by_the_fact_to_the_end(book, cf):
 def test_term_check_uses_the_core_da_of_2026h2(which, book, cf, monkeypatch):
     """Порча «сверка срока без остатка якоря» (ниже порога, п. 4): DA(2026H2) сверки = DA ядра k = 1 (остаток якоря и
     земля — те же)."""
-    B = book if which == "14" else _git_book(BOOK_13)
+    B = book if which == "14" else old_book(BOOK_13)
     ctx = Context(B, cf)
     da, cx = _cohort_da(ctx, 1)
     land = opt(B, "capex", "anchor_land")
@@ -344,7 +345,7 @@ def test_release_carries_capital_rules_and_bridge_labels(book, cf, grid):
     assert rows["bs_income_tax_payable"] == "налог на прибыль к уплате"
     assert rows["oca_income_tax_prepaid"] == "авансы по налогу на прибыль"
     assert rows["net_exercise_tax"] == "налог при нетто-исполнении опционов"
-    b13 = _git_book(BOOK_13)
+    b13 = old_book(BOOK_13)
     g13 = evaluate(b13, cf)
     assert "rules" not in capex_block(b13, g13.ctx)
     rows13 = {x["key"]: x["label"] for x in debt_block(b13, cf, g13)["bridge"]["rows_at_valuation"]}
@@ -386,7 +387,7 @@ class _Seen(Exception):
 def test_derive_passes_rest_and_land_to_the_term_check(which, book, cf, monkeypatch):
     """Порча 403 «сверка срока без остатка якоря» и её двойник «без земли» — в месте вызова (`derive`)."""
     import model.rederive as R
-    B = book if which == "14" else _git_book(BOOK_13)
+    B = book if which == "14" else old_book(BOOK_13)
     seen = {}
 
     def spy(cf_, cal, life, rest=False, land=None):

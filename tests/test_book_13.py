@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 """Книга 1.3 (правка этапа 3-2): каждый ключ книги — своё правило методики (docs/MODEL.md §17, «Ключи книги 1.3»);
 без ключей — книга 1.2 бит в бит; закреплённые числа книги 1.3; порчи общего кода сектора из приёмки 303
-(рабочий файл, раздел 4, ошибки ниже порога, п. 2). Книга 1.3 — из коммита 469d33d: с ключами книги 1.4 тот же код
-считает её бит в бит."""
+(рабочий файл, раздел 4, ошибки ниже порога, п. 2). Книга 1.3 — копия из коммита 469d33d (`tests/old_books.py`): с
+ключами книги 1.4 тот же код считает её бит в бит."""
 from __future__ import annotations
 
 import copy
+import hashlib
 import math
 
 import pytest
@@ -18,9 +19,11 @@ from model.core import Context, _cohort_da, anchor_rest, kappa_line, run_cell
 from model.facts import core_facts, load_facts, need
 from model.grid import evaluate
 from model.payload import capex_block
-from tests.test_book_12 import BOOK_11, BOOK_12, _git_book
+from tests import old_books
+from tests.old_books import old_book
+from tests.test_book_12 import BOOK_11, BOOK_12
 
-BOOK_13 = "469d33d"                                         # коммит книги 1.3 (main до правки этапа 4)
+BOOK_13 = "1.3"                                             # книга 1.3 (469d33d, main до правки этапа 4)
 POINT_12, MEDIAN_12 = 3188.1237296550626, 2981.575          # книга 1.2 (c150e62), малая полоса — 400, семя книги
 POINT_13, MEDIAN_13 = 3101.473848133197, 2906.875           # книга 1.3 (правка этапа 3-2)
 FLOW_12, FLOW_13 = 14.674944670, 16.937438089               # разница потоков 9М26, млрд ₽
@@ -34,8 +37,8 @@ def cf():
 
 @pytest.fixture(scope="module")
 def book():
-    """Книга 1.3 из её коммита (живая книга — 1.4, тесты `tests/test_book_14.py`)."""
-    return _git_book(BOOK_13)
+    """Книга 1.3 — копия из её коммита (живая книга — 1.4, тесты `tests/test_book_14.py`)."""
+    return old_book(BOOK_13)
 
 
 @pytest.fixture(scope="module")
@@ -56,12 +59,24 @@ def _cell(B, cf, w="H", r="base", c="base"):
     return run_cell(Context(B, cf), w, r, c)
 
 
+# ------------------------------------------------------------------ копии прежних книг
+
+
+def test_old_book_fixtures_are_the_blobs_of_their_commits():
+    """Копии книг 1.0–1.3 — байт в байт `data/assumptions/assumptions.yaml` своих коммитов прежней истории."""
+    assert sorted(old_books.PINS) == ["1.0", "1.1", "1.2", "1.3"]
+    for version, (_, blob, sha256) in old_books.PINS.items():
+        data = old_books.path(version).read_bytes()
+        assert hashlib.sha256(data).hexdigest() == sha256, version
+        assert old_books.blob_sha1(data) == blob, version
+
+
 # ------------------------------------------------------------------ без ключей — книга 1.2 бит в бит; числа 1.3
 
 
 def test_book_12_point_median_and_flow_bit_for_bit(cf):
     """Книга 1.2 (c150e62) без ключей книги 1.3: точка, медиана малой полосы и поток 9М26 — прежние числа."""
-    A = _git_book(BOOK_12)
+    A = old_book(BOOK_12)
     validate_book(A)
     g = evaluate(A, cf)
     assert g.point.central == POINT_12
@@ -319,7 +334,7 @@ def test_release_capex_block_names_the_kappa_base(book):
     """Выпуск (docs/PAYLOAD.md): база κ, окно и правило высокого уровня; книга 1.1 — null."""
     blk = capex_block(book)
     assert (blk["balance_base"], blk["kappa_window"], blk["kappa_high"]) == ("ex_fs", "ltm", "mirror")
-    b11 = capex_block(_git_book(BOOK_11))
+    b11 = capex_block(old_book(BOOK_11))
     assert (b11["balance_base"], b11["kappa_window"], b11["kappa_high"]) == (None, None, None)
 
 

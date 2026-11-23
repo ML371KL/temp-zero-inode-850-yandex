@@ -6,10 +6,8 @@ from __future__ import annotations
 
 import copy
 import math
-import subprocess
 
 import pytest
-import yaml
 
 from model import checks as C
 from model.book import load_book
@@ -18,10 +16,11 @@ from model.core import Context, _tau, nwc_fact, revenue_base, run_cell
 from model.facts import core_facts, load_facts, need
 from model.grid import evaluate
 from model.rederive import derive, _with
+from tests.old_books import old_book
 
 ROOT = C.ROOT
-BOOK_11, BOOK_10 = "079bad5", "913ee3e"          # коммиты книг 1.1 и 1.0 (бит в бит — точки ядра этих коммитов)
-BOOK_12 = "c150e62"                               # коммит книги 1.2 (main до правки этапа 3-2)
+BOOK_11, BOOK_10 = "1.1", "1.0"   # книги 1.1 (079bad5) и 1.0 (913ee3e): бит в бит — точки ядра этих коммитов
+BOOK_12 = "1.2"                   # книга 1.2 (c150e62, main до правки этапа 3-2); копии — tests/old_books.py
 POINT_11, MEDIAN_11 = 3074.024393196355, 2871.775
 POINT_10, MEDIAN_10 = 3248.0843683629164, 3145.9
 
@@ -34,17 +33,9 @@ def cf():
 @pytest.fixture(scope="module")
 def book():
     """Книга 1.2 — из коммита c150e62 (книга 1.3 — tests/test_book_13.py): тесты ключей книги 1.2 на её числах."""
-    A = _git_book(BOOK_12)
+    A = old_book(BOOK_12)
     validate_book(A)
     return A
-
-
-def _git_book(rev: str) -> dict:
-    got = subprocess.run(["git", "show", f"{rev}:data/assumptions/assumptions.yaml"], cwd=ROOT, capture_output=True,
-                         text=True, encoding="utf-8")
-    if got.returncode != 0:
-        pytest.skip(f"нет коммита {rev} в истории копии")
-    return yaml.safe_load(got.stdout)
 
 
 def _cell(B, cf, w="H", r="base", c="base"):
@@ -64,7 +55,7 @@ def _drop(B: dict, *path: str) -> dict:
 
 @pytest.mark.parametrize("rev, point", [(BOOK_11, POINT_11), (BOOK_10, POINT_10)])
 def test_previous_books_point_bit_for_bit(cf, rev, point):
-    A = _git_book(rev)
+    A = old_book(rev)
     validate_book(A)
     assert evaluate(A, cf).point.central == point
 
@@ -72,7 +63,7 @@ def test_previous_books_point_bit_for_bit(cf, rev, point):
 def test_book_11_small_band_bit_for_bit(cf):
     """Малая полоса книги 1.1 (400 прогонов, семя книги) — медиана 2 871,775 ₽, как до правки."""
     from model import quick as Q, uncertainty as U
-    A = _git_book(BOOK_11)
+    A = old_book(BOOK_11)
     try:
         r = Q.run(A, cf)
     finally:
@@ -83,7 +74,7 @@ def test_book_11_small_band_bit_for_bit(cf):
 
 def test_book_11_rederive_is_unchanged(cf):
     """Перевывод книги 1.1 новым кодом пишет те же числа (ключей 1.2 нет — прежние правила)."""
-    A = _git_book(BOOK_11)
+    A = old_book(BOOK_11)
     V, *_ = derive(A, cf)
     for path, v in V.items():
         node = A

@@ -582,14 +582,9 @@ def test_axis6_position_orders_price(model):
 def test_book_10_without_kappa_key_matches_core_point():
     """Книга 1.0 (без ключей правила κ и уровня при режиме): второй счёт считает прежним правилом — точка ядра
     913ee3e 3 248,0843683629 ₽ (отчёт 203: книга 1.0 после правки бит в бит)."""
-    import subprocess as sp
-    got = sp.run(["git", "show", "913ee3e:data/assumptions/assumptions.yaml"], cwd=cm.ROOT, capture_output=True,
-                 text=True, encoding="utf-8")
-    if got.returncode != 0:
-        pytest.skip("нет коммита 913ee3e в истории копии")
-    import yaml
+    from tests.old_books import old_book
     F = cm.Facts()
-    P, _ = cm.build_params(F, yaml.safe_load(got.stdout))
+    P, _ = cm.build_params(F, old_book("1.0"))           # копия книги из коммита 913ee3e
     assert P["capex"].get("rule") is None and "capex_prob_given_regime" not in P["joint"]
     assert abs(cm.point(P, F, ASOF)["point"] - 3248.0843683629164) <= 1e-9 * 3248.0843683629164
 
@@ -597,15 +592,11 @@ def test_book_10_without_kappa_key_matches_core_point():
 # ------------------------------------------------------------------------------------------------ книга 1.2 и 1.1
 
 @pytest.fixture(scope="module")
-def core_book_11(tmp_path_factory):
-    """Книга 1.1 (main 079bad5) — прежняя сверка: ядро без ключей книги 1.2 считает её как раньше."""
-    got = subprocess.run(["git", "show", "079bad5:data/assumptions/assumptions.yaml"], cwd=CORE_ROOT,
-                         capture_output=True, text=True, encoding="utf-8")
-    if got.returncode != 0:
-        pytest.skip("нет коммита 079bad5 в истории копии ядра")
-    path = tmp_path_factory.mktemp("book11") / "book_11.yaml"
-    path.write_text(got.stdout, encoding="utf-8")
-    return path
+def core_book_11():
+    """Книга 1.1 (main 079bad5; копия — `tests/old_books.py`) — прежняя сверка: ядро без ключей книги 1.2 считает её
+    как раньше."""
+    from tests.old_books import path
+    return path("1.1")
 
 
 @pytest.mark.docs

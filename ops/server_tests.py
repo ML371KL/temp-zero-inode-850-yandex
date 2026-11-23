@@ -29,7 +29,7 @@ GROUPS = 4                      # процессов pytest по умолчан�
 LIMIT_S = 180                   # потолок набора на ноутбуке (задача плана 7)
 POLL_S = 0.2                    # опрос процессов групп, с
 # Ожидаемые счётчики набора такта (`-m TACT_TESTS`, без сети и CI).
-EXPECTED = {"passed": 411, "failed": 0, "errors": 0, "skipped": 0, "xfailed": 0}
+EXPECTED = {"passed": 412, "failed": 0, "errors": 0, "skipped": 0, "xfailed": 0}
 
 
 def tact_expression() -> str:
