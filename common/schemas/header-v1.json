@@ -1,0 +1,152 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "family-header-v1",
+ "title": "Шапка выпуска модели семейства 850 (common/README.md, раздел 2)",
+ "type": "object",
+ "required": ["schema", "model", "headline", "market", "book", "facts", "worlds", "common", "release", "flags", "gates",
+              "deadlines", "report", "status"],
+ "additionalProperties": false,
+ "properties": {
+  "schema": {"const": "family-header-v1"},
+  "model": {
+   "type": "object", "required": ["slug", "tickers", "name"], "additionalProperties": false,
+   "properties": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "tickers": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[A-Z0-9]+$"}},
+    "name": {"$ref": "#/$defs/text"}
+   }
+  },
+  "headline": {
+   "type": "object",
+   "required": ["printed", "median", "point", "band80", "band50", "print_step", "p_below_market"],
+   "additionalProperties": false,
+   "properties": {
+    "printed": {"$ref": "#/$defs/price"},
+    "median": {"$ref": "#/$defs/price"},
+    "point": {"$ref": "#/$defs/price"},
+    "band80": {"$ref": "#/$defs/pair"},
+    "band50": {"$ref": "#/$defs/pair"},
+    "print_step": {"type": "number", "exclusiveMinimum": 0},
+    "p_below_market": {"type": "number", "minimum": 0, "maximum": 1},
+    "by_ticker": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object", "required": ["printed", "median", "band80"], "additionalProperties": false,
+      "properties": {"printed": {"$ref": "#/$defs/price"}, "median": {"$ref": "#/$defs/price"},
+                     "band80": {"$ref": "#/$defs/pair"}}
+     }
+    }
+   }
+  },
+  "market": {
+   "type": "object", "required": ["ticker", "price", "price_date", "upside"], "additionalProperties": false,
+   "properties": {
+    "ticker": {"type": "string", "pattern": "^[A-Z0-9]+$"},
+    "price": {"type": "number", "exclusiveMinimum": 0},
+    "price_date": {"$ref": "#/$defs/date"},
+    "upside": {"type": "number"}
+   }
+  },
+  "book": {
+   "type": "object", "required": ["version", "date", "tag"], "additionalProperties": false,
+   "properties": {"version": {"$ref": "#/$defs/text"}, "date": {"$ref": "#/$defs/date"}, "tag": {"$ref": "#/$defs/text"}}
+  },
+  "facts": {
+   "type": "object",
+   "required": ["anchor_period", "facts_date", "first_period", "open_period", "periods_closed", "first_period_closed"],
+   "additionalProperties": false,
+   "properties": {
+    "anchor_period": {"$ref": "#/$defs/period"},
+    "facts_date": {"$ref": "#/$defs/date"},
+    "first_period": {"$ref": "#/$defs/period"},
+    "open_period": {"type": ["string", "null"], "pattern": "^\\d{4}(H[12]|Q[1-4]|M(0[1-9]|1[0-2]))?$"},
+    "periods_closed": {"type": "array", "items": {"$ref": "#/$defs/period"}},
+    "first_period_closed": {"type": "boolean"}
+   }
+  },
+  "worlds": {
+   "type": "object", "required": ["version", "record_asof", "record_sha256", "engine_sha256"],
+   "additionalProperties": false,
+   "properties": {
+    "version": {"$ref": "#/$defs/text"},
+    "record_asof": {"$ref": "#/$defs/date"},
+    "record_sha256": {"$ref": "#/$defs/sha256"},
+    "engine_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+   }
+  },
+  "common": {
+   "type": "object", "required": ["version", "manifest_sha256"], "additionalProperties": false,
+   "properties": {"version": {"type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$"},
+                  "manifest_sha256": {"$ref": "#/$defs/sha256"}}
+  },
+  "release": {
+   "type": "object", "required": ["generated_at", "valuation_date", "engine_commit", "fast"],
+   "additionalProperties": false,
+   "properties": {
+    "generated_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"},
+    "valuation_date": {"$ref": "#/$defs/date"},
+    "engine_commit": {"$ref": "#/$defs/text"},
+    "fast": {"type": "boolean"}
+   }
+  },
+  "flags": {
+   "type": "array",
+   "items": {
+    "type": "object", "required": ["name", "level", "title"], "additionalProperties": false,
+    "properties": {"name": {"$ref": "#/$defs/text"}, "level": {"enum": ["info", "warn", "alert"]},
+                   "title": {"$ref": "#/$defs/text"}}
+   }
+  },
+  "gates": {
+   "type": "array",
+   "items": {
+    "type": "object", "required": ["key", "explained", "valid_until", "mass"], "additionalProperties": false,
+    "properties": {
+     "key": {"$ref": "#/$defs/text"}, "explained": {"type": "boolean"},
+     "valid_until": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+     "mass": {"type": ["number", "null"]}
+    }
+   }
+  },
+  "deadlines": {
+   "type": "array",
+   "items": {
+    "type": "object", "required": ["date", "what", "kind", "action"], "additionalProperties": false,
+    "properties": {
+     "date": {"$ref": "#/$defs/date"}, "what": {"$ref": "#/$defs/text"},
+     "kind": {"enum": ["explanation", "book", "data", "policy"]}, "action": {"$ref": "#/$defs/text"}
+    }
+   }
+  },
+  "report": {
+   "type": "object", "required": ["state", "next", "last_fact_period", "out_since"], "additionalProperties": false,
+   "properties": {
+    "state": {"enum": ["current", "report_out", "closing_due", "overdue"]},
+    "next": {
+     "type": ["object", "null"], "required": ["date", "title", "covers", "precision", "confirmed"],
+     "additionalProperties": false,
+     "properties": {
+      "date": {"$ref": "#/$defs/date"}, "title": {"$ref": "#/$defs/text"},
+      "covers": {"type": ["string", "null"], "pattern": "^\\d{4}(H[12]|Q[1-4]|M(0[1-9]|1[0-2]))?$"},
+      "precision": {"enum": ["day", "window", "month", "estimate"]}, "confirmed": {"type": "boolean"}
+     }
+    },
+    "last_fact_period": {"$ref": "#/$defs/period"},
+    "out_since": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+   }
+  },
+  "status": {
+   "type": "object", "required": ["level", "reasons"], "additionalProperties": false,
+   "properties": {"level": {"enum": ["green", "yellow", "red"]},
+                  "reasons": {"type": "array", "items": {"$ref": "#/$defs/text"}}}
+  }
+ },
+ "$defs": {
+  "text": {"type": "string", "minLength": 1},
+  "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+  "period": {"type": "string", "pattern": "^\\d{4}(H[12]|Q[1-4]|M(0[1-9]|1[0-2]))?$"},
+  "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+  "price": {"type": "number", "exclusiveMinimum": 0},
+  "pair": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"$ref": "#/$defs/price"}}
+ }
+}

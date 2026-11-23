@@ -1,0 +1,52 @@
+# Манифест приёма миров ставок семейства 850 — модель Яндекса (команда ops/tools/adopt_worlds.py).
+#
+# Приём кладёт запись миров побайтовой копией (CRLF), пишет состояние data/assumptions/worlds_state.json, проецирует
+# миры в книгу (правило ops/tools/worlds_rules.py::project_worlds: ключевая, ИПЦ, кривая, π в долгую, веса слоя
+# «свой макро-взгляд», происхождение), перевыводит книгу (выведенные ключи §17 от миров не зависят — проверка
+# неподвижной точки) и печатает точку по сетке. Номер книги, таблицы, быстрые числа, тексты и журналы — задача 5б.
+# Сторож — tests/test_worlds_dependents.py (образец model-kit).
+schema: worlds-dependents-v1
+model: yandex
+title: "Яндекс 850"
+workers: 2
+record: data/assumptions/worlds_source.json
+template: data/assumptions/assumptions.yaml   # машинная книга (сборщика нет): правило пишет её точечно
+print_step: 50                                # шаг печати, ₽ (valuation.headline.print_step)
+stop: {median_print_steps: 2}                 # сдвиг медианы больше двух шагов печати — красный флаг (быстрые числа — 5б)
+
+steps:
+  - id: record
+    kind: install
+    title: "запись миров {version} побайтово (CRLF)"
+    files:
+      - {src: record/worlds_source.json, dst: data/assumptions/worlds_source.json}
+      - {src: record/worlds_source.csv, dst: data/assumptions/worlds_source.csv}
+  - id: state
+    kind: state
+    title: "состояние: модель на мирах {version}"
+  - id: project
+    kind: rule
+    title: "миры книги — проекция записи {version}; веса слоя, дата кривой, хэш записи, книга-источник"
+    module: ops/tools/worlds_rules.py
+    function: project_worlds
+    comments_flag: false
+  - id: rederive
+    kind: run
+    title: "перевывод книги: выведенные ключи §17 из фактов (от миров не зависят — неподвижная точка)"
+    cmd: ["{python}", "-B", "-m", "model.rederive"]
+  - id: point
+    kind: run
+    title: "точка по сетке 36 клеток на книге (ИТОГ — точка, V0, EV/EBITDA 2027, доля терминала)"
+    cmd: ["{python}", "-B", "-m", "model.point"]
+  - id: guard
+    kind: run
+    title: "сторож: запись стоит на версии состояния, читатели миров названы"
+    cmd: ["{python}", "-B", "-m", "pytest", "-q", "-p", "no:cacheprovider", "tests/test_worlds_dependents.py"]
+
+# Файлы, которые читают запись миров или происхождение миров книги (сторож сверяет список с деревом).
+readers:
+  ops/tools/adopt_worlds.py: {step: ""}
+  common/cli.py: {step: "", note: "общий слой: `state` печатает версию миров из worlds_state.json, `worlds` зовёт движок"}
+  ops/tools/worlds_rules.py: {step: project, note: "проекция записи миров в книгу"}
+  model/payload.py: {step: "", note: "печать происхождения миров на витрине (читает книгу; выпуск конвейера)"}
+  ops/tools/mock_payload.py: {step: "", note: "образец выпуска для витрины (происхождение миров)"}

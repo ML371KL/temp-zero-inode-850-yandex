@@ -1,0 +1,10 @@
+# Адреса, которые могут стоять автором или коммиттером в истории ЛЮБОЙ ветки
+# публичного репозитория (git log --all --format=%ae%n%ce). Адрес автора ветки
+# release (YANDEX_GIT_EMAIL в ops/env.example) сверяет tests/test_ops_units.py.
+# Всю историю на каждый push и PR сверяет CI (.github/workflows/history.yml).
+# Личной почты здесь нет и быть не должно: метаданные коммитов видны всем и не
+# удаляются задним числом.
+# Владелец (коммиты с ноутбука и ветка release с сервера, YANDEX_GIT_EMAIL):
+304002195+ML371KL@users.noreply.github.com
+# Коммиттер правок через веб-интерфейс GitHub (web-flow):
+noreply@github.com

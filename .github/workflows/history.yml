@@ -1,0 +1,40 @@
+name: history
+
+# Адреса автора и коммиттера всей истории публичного репозитория — только из
+# ops/commit-emails.allow: метаданные коммитов видны всем и не удаляются задним
+# числом. На любой push и PR, без фильтра путей: коммит одних документов тоже
+# несёт адрес. Тот же список читают ops/tools/first_push.sh (первый push) и
+# tests/test_ops_units.py (адрес ветки release в ops/env.example).
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: history-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  emails:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Адреса истории — из ops/commit-emails.allow
+        run: |
+          set -euo pipefail
+          allow=$(sed -e 's/#.*//' -e 's/[[:space:]]//g' ops/commit-emails.allow | sed '/^$/d')
+          seen=$(git log --all --format='%ae%n%ce' | sort -u)
+          bad=$(printf '%s\n' "$seen" | grep -vxF -f <(printf '%s\n' "$allow") || true)
+          if [ -n "$bad" ]; then
+            echo "::error::адреса не из ops/commit-emails.allow: $(echo $bad)"
+            exit 1
+          fi
+          echo "адресов в истории: $(printf '%s\n' "$seen" | wc -l), все в списке"

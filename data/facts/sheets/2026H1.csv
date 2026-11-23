@@ -1,0 +1,871 @@
+metric,segment,period,value,unit,doc_id,page,note
+revenue,search,2024Q1,104.761,bn_rub,ydex_databook_2026q3,Показатели сегментов!G8,
+adj_ebitda,search,2024Q1,43.656,bn_rub,ydex_databook_2026q3,Показатели сегментов!G52,
+revenue,search,2024Q2,111.48,bn_rub,ydex_databook_2026q3,Показатели сегментов!H8,
+adj_ebitda,search,2024Q2,49.433,bn_rub,ydex_databook_2026q3,Показатели сегментов!H52,
+revenue,search,2024Q3,127.005,bn_rub,ydex_databook_2026q3,Показатели сегментов!I8,
+adj_ebitda,search,2024Q3,57.986,bn_rub,ydex_databook_2026q3,Показатели сегментов!I52,
+revenue,search,2024Q4,156.554,bn_rub,ydex_databook_2026q3,Показатели сегментов!J8,
+adj_ebitda,search,2024Q4,69.002,bn_rub,ydex_databook_2026q3,Показатели сегментов!J52,
+revenue,search,2025Q1,123.518,bn_rub,ydex_databook_2026q3,Показатели сегментов!K8,
+adj_ebitda,search,2025Q1,56.553,bn_rub,ydex_databook_2026q3,Показатели сегментов!K52,
+revenue,search,2025Q2,126.257,bn_rub,ydex_databook_2026q3,Показатели сегментов!L8,
+adj_ebitda,search,2025Q2,56.766,bn_rub,ydex_databook_2026q3,Показатели сегментов!L52,
+revenue,search,2025Q3,138.513,bn_rub,ydex_databook_2026q3,Показатели сегментов!M8,
+adj_ebitda,search,2025Q3,62.98,bn_rub,ydex_databook_2026q3,Показатели сегментов!M52,
+revenue,search,2025Q4,162.954,bn_rub,ydex_databook_2026q3,Показатели сегментов!N8,
+adj_ebitda,search,2025Q4,69.228,bn_rub,ydex_databook_2026q3,Показатели сегментов!N52,
+revenue,search,2026Q1,122.601,bn_rub,ydex_databook_2026q3,Показатели сегментов!O8,
+adj_ebitda,search,2026Q1,52.9,bn_rub,ydex_databook_2026q3,Показатели сегментов!O52,
+revenue,search,2026Q2,137.428,bn_rub,ydex_databook_2026q3,Показатели сегментов!P8,
+adj_ebitda,search,2026Q2,63.692,bn_rub,ydex_databook_2026q3,Показатели сегментов!P52,
+revenue,search,2024,499.799,bn_rub,ydex_databook_2026q3,Показатели сегментов!C8,
+adj_ebitda,search,2024,220.077,bn_rub,ydex_databook_2026q3,Показатели сегментов!C52,
+revenue,search,2025,551.243,bn_rub,ydex_databook_2026q3,Показатели сегментов!E8,
+adj_ebitda,search,2025,245.527,bn_rub,ydex_databook_2026q3,Показатели сегментов!E52,
+revenue,ridetech,2024Q1,47.015,bn_rub,ydex_databook_2026q3,Показатели сегментов!G10,
+adj_ebitda,ridetech,2024Q1,17.561,bn_rub,ydex_databook_2026q3,Показатели сегментов!G54,
+revenue,ridetech,2024Q2,54.78,bn_rub,ydex_databook_2026q3,Показатели сегментов!H10,
+adj_ebitda,ridetech,2024Q2,20.177,bn_rub,ydex_databook_2026q3,Показатели сегментов!H54,
+revenue,ridetech,2024Q3,59.415,bn_rub,ydex_databook_2026q3,Показатели сегментов!I10,
+adj_ebitda,ridetech,2024Q3,20.236,bn_rub,ydex_databook_2026q3,Показатели сегментов!I54,
+revenue,ridetech,2024Q4,66.7,bn_rub,ydex_databook_2026q3,Показатели сегментов!J10,
+adj_ebitda,ridetech,2024Q4,22.775,bn_rub,ydex_databook_2026q3,Показатели сегментов!J54,
+revenue,ridetech,2025Q1,60.773,bn_rub,ydex_databook_2026q3,Показатели сегментов!K10,
+adj_ebitda,ridetech,2025Q1,23.463,bn_rub,ydex_databook_2026q3,Показатели сегментов!K54,
+revenue,ridetech,2025Q2,67.642,bn_rub,ydex_databook_2026q3,Показатели сегментов!L10,
+adj_ebitda,ridetech,2025Q2,25.124,bn_rub,ydex_databook_2026q3,Показатели сегментов!L54,
+revenue,ridetech,2025Q3,73.745,bn_rub,ydex_databook_2026q3,Показатели сегментов!M10,
+adj_ebitda,ridetech,2025Q3,28.587,bn_rub,ydex_databook_2026q3,Показатели сегментов!M54,
+revenue,ridetech,2025Q4,82.096,bn_rub,ydex_databook_2026q3,Показатели сегментов!N10,
+adj_ebitda,ridetech,2025Q4,33.4,bn_rub,ydex_databook_2026q3,Показатели сегментов!N54,
+revenue,ridetech,2026Q1,71.447,bn_rub,ydex_databook_2026q3,Показатели сегментов!O10,
+adj_ebitda,ridetech,2026Q1,31.692,bn_rub,ydex_databook_2026q3,Показатели сегментов!O54,
+revenue,ridetech,2026Q2,77.615,bn_rub,ydex_databook_2026q3,Показатели сегментов!P10,
+adj_ebitda,ridetech,2026Q2,34.962,bn_rub,ydex_databook_2026q3,Показатели сегментов!P54,
+revenue,ridetech,2024,227.91,bn_rub,ydex_databook_2026q3,Показатели сегментов!C10,
+adj_ebitda,ridetech,2024,80.749,bn_rub,ydex_databook_2026q3,Показатели сегментов!C54,
+revenue,ridetech,2025,284.255,bn_rub,ydex_databook_2026q3,Показатели сегментов!E10,
+adj_ebitda,ridetech,2025,110.574,bn_rub,ydex_databook_2026q3,Показатели сегментов!E54,
+revenue,ecom,2024Q1,65.598,bn_rub,ydex_databook_2026q3,Показатели сегментов!G11,
+adj_ebitda,ecom,2024Q1,-13.251,bn_rub,ydex_databook_2026q3,Показатели сегментов!G55,
+revenue,ecom,2024Q2,70.393,bn_rub,ydex_databook_2026q3,Показатели сегментов!H11,
+adj_ebitda,ecom,2024Q2,-10.276,bn_rub,ydex_databook_2026q3,Показатели сегментов!H55,
+revenue,ecom,2024Q3,77.415,bn_rub,ydex_databook_2026q3,Показатели сегментов!I11,
+adj_ebitda,ecom,2024Q3,-14.336,bn_rub,ydex_databook_2026q3,Показатели сегментов!I55,
+revenue,ecom,2024Q4,108.927,bn_rub,ydex_databook_2026q3,Показатели сегментов!J11,
+adj_ebitda,ecom,2024Q4,-18.307,bn_rub,ydex_databook_2026q3,Показатели сегментов!J55,
+revenue,ecom,2025Q1,104.845,bn_rub,ydex_databook_2026q3,Показатели сегментов!K11,
+adj_ebitda,ecom,2025Q1,-13.906,bn_rub,ydex_databook_2026q3,Показатели сегментов!K55,
+revenue,ecom,2025Q2,102.772,bn_rub,ydex_databook_2026q3,Показатели сегментов!L11,
+adj_ebitda,ecom,2025Q2,-10.926,bn_rub,ydex_databook_2026q3,Показатели сегментов!L55,
+revenue,ecom,2025Q3,113.272,bn_rub,ydex_databook_2026q3,Показатели сегментов!M11,
+adj_ebitda,ecom,2025Q3,-6.573,bn_rub,ydex_databook_2026q3,Показатели сегментов!M55,
+revenue,ecom,2025Q4,144.449,bn_rub,ydex_databook_2026q3,Показатели сегментов!N11,
+adj_ebitda,ecom,2025Q4,-8.163,bn_rub,ydex_databook_2026q3,Показатели сегментов!N55,
+revenue,ecom,2026Q1,123.386,bn_rub,ydex_databook_2026q3,Показатели сегментов!O11,
+adj_ebitda,ecom,2026Q1,-6.358,bn_rub,ydex_databook_2026q3,Показатели сегментов!O55,
+revenue,ecom,2026Q2,123.736,bn_rub,ydex_databook_2026q3,Показатели сегментов!P11,
+adj_ebitda,ecom,2026Q2,0.4,bn_rub,ydex_databook_2026q3,Показатели сегментов!P55,
+revenue,ecom,2024,322.332,bn_rub,ydex_databook_2026q3,Показатели сегментов!C11,
+adj_ebitda,ecom,2024,-56.17,bn_rub,ydex_databook_2026q3,Показатели сегментов!C55,
+revenue,ecom,2025,465.338,bn_rub,ydex_databook_2026q3,Показатели сегментов!E11,
+adj_ebitda,ecom,2025,-39.568,bn_rub,ydex_databook_2026q3,Показатели сегментов!E55,
+revenue,delivery,2024Q1,16.839,bn_rub,ydex_databook_2026q3,Показатели сегментов!G12,
+adj_ebitda,delivery,2024Q1,-1.525,bn_rub,ydex_databook_2026q3,Показатели сегментов!G56,
+revenue,delivery,2024Q2,17.373,bn_rub,ydex_databook_2026q3,Показатели сегментов!H12,
+adj_ebitda,delivery,2024Q2,-1.031,bn_rub,ydex_databook_2026q3,Показатели сегментов!H56,
+revenue,delivery,2024Q3,18.823,bn_rub,ydex_databook_2026q3,Показатели сегментов!I12,
+adj_ebitda,delivery,2024Q3,-1.67,bn_rub,ydex_databook_2026q3,Показатели сегментов!I56,
+revenue,delivery,2024Q4,23.502,bn_rub,ydex_databook_2026q3,Показатели сегментов!J12,
+adj_ebitda,delivery,2024Q4,-2.711,bn_rub,ydex_databook_2026q3,Показатели сегментов!J56,
+revenue,delivery,2025Q1,20.406,bn_rub,ydex_databook_2026q3,Показатели сегментов!K12,
+adj_ebitda,delivery,2025Q1,-1.315,bn_rub,ydex_databook_2026q3,Показатели сегментов!K56,
+revenue,delivery,2025Q2,19.786,bn_rub,ydex_databook_2026q3,Показатели сегментов!L12,
+adj_ebitda,delivery,2025Q2,-1.349,bn_rub,ydex_databook_2026q3,Показатели сегментов!L56,
+revenue,delivery,2025Q3,20.377,bn_rub,ydex_databook_2026q3,Показатели сегментов!M12,
+adj_ebitda,delivery,2025Q3,-3.123,bn_rub,ydex_databook_2026q3,Показатели сегментов!M56,
+revenue,delivery,2025Q4,25.375,bn_rub,ydex_databook_2026q3,Показатели сегментов!N12,
+adj_ebitda,delivery,2025Q4,-2.377,bn_rub,ydex_databook_2026q3,Показатели сегментов!N56,
+revenue,delivery,2026Q1,24.276,bn_rub,ydex_databook_2026q3,Показатели сегментов!O12,
+adj_ebitda,delivery,2026Q1,-3.841,bn_rub,ydex_databook_2026q3,Показатели сегментов!O56,
+revenue,delivery,2026Q2,21.203,bn_rub,ydex_databook_2026q3,Показатели сегментов!P12,
+adj_ebitda,delivery,2026Q2,-0.944,bn_rub,ydex_databook_2026q3,Показатели сегментов!P56,
+revenue,delivery,2024,76.537,bn_rub,ydex_databook_2026q3,Показатели сегментов!C12,
+adj_ebitda,delivery,2024,-6.938,bn_rub,ydex_databook_2026q3,Показатели сегментов!C56,
+revenue,delivery,2025,85.944,bn_rub,ydex_databook_2026q3,Показатели сегментов!E12,
+adj_ebitda,delivery,2025,-8.164,bn_rub,ydex_databook_2026q3,Показатели сегментов!E56,
+revenue,city_elim,2024Q1,-7.285,bn_rub,ydex_databook_2026q3,Показатели сегментов!G13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2024Q1,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!G57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2024Q2,-8.009,bn_rub,ydex_databook_2026q3,Показатели сегментов!H13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2024Q2,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!H57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2024Q3,-8.756,bn_rub,ydex_databook_2026q3,Показатели сегментов!I13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2024Q3,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!I57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2024Q4,-10.1,bn_rub,ydex_databook_2026q3,Показатели сегментов!J13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2024Q4,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!J57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2025Q1,-8.318,bn_rub,ydex_databook_2026q3,Показатели сегментов!K13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2025Q1,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!K57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2025Q2,-7.059,bn_rub,ydex_databook_2026q3,Показатели сегментов!L13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2025Q2,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!L57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2025Q3,-7.037,bn_rub,ydex_databook_2026q3,Показатели сегментов!M13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2025Q3,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!M57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2025Q4,-8.66,bn_rub,ydex_databook_2026q3,Показатели сегментов!N13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2025Q4,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!N57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2026Q1,-8.599,bn_rub,ydex_databook_2026q3,Показатели сегментов!O13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2026Q1,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!O57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2026Q2,-6.962,bn_rub,ydex_databook_2026q3,Показатели сегментов!P13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2026Q2,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!P57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2024,-34.149,bn_rub,ydex_databook_2026q3,Показатели сегментов!C13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2024,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!C57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,city_elim,2025,-31.072,bn_rub,ydex_databook_2026q3,Показатели сегментов!E13,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+adj_ebitda,city_elim,2025,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!E57,"внутрисегментные расчёты Городских сервисов (между Райдтехом, ЭК и Доставкой)"
+revenue,plus,2024Q1,19.452,bn_rub,ydex_databook_2026q3,Показатели сегментов!G15,
+adj_ebitda,plus,2024Q1,-0.628,bn_rub,ydex_databook_2026q3,Показатели сегментов!G59,
+revenue,plus,2024Q2,20.276,bn_rub,ydex_databook_2026q3,Показатели сегментов!H15,
+adj_ebitda,plus,2024Q2,0.226,bn_rub,ydex_databook_2026q3,Показатели сегментов!H59,
+revenue,plus,2024Q3,22.142,bn_rub,ydex_databook_2026q3,Показатели сегментов!I15,
+adj_ebitda,plus,2024Q3,1.197,bn_rub,ydex_databook_2026q3,Показатели сегментов!I59,
+revenue,plus,2024Q4,29.665,bn_rub,ydex_databook_2026q3,Показатели сегментов!J15,
+adj_ebitda,plus,2024Q4,-0.126,bn_rub,ydex_databook_2026q3,Показатели сегментов!J59,
+revenue,plus,2025Q1,29.916,bn_rub,ydex_databook_2026q3,Показатели сегментов!K15,
+adj_ebitda,plus,2025Q1,1.012,bn_rub,ydex_databook_2026q3,Показатели сегментов!K59,
+revenue,plus,2025Q2,27.51,bn_rub,ydex_databook_2026q3,Показатели сегментов!L15,
+adj_ebitda,plus,2025Q2,2.551,bn_rub,ydex_databook_2026q3,Показатели сегментов!L59,
+revenue,plus,2025Q3,29.28,bn_rub,ydex_databook_2026q3,Показатели сегментов!M15,
+adj_ebitda,plus,2025Q3,3.313,bn_rub,ydex_databook_2026q3,Показатели сегментов!M59,
+revenue,plus,2025Q4,34.061,bn_rub,ydex_databook_2026q3,Показатели сегментов!N15,
+adj_ebitda,plus,2025Q4,4.764,bn_rub,ydex_databook_2026q3,Показатели сегментов!N59,
+revenue,plus,2026Q1,32.199,bn_rub,ydex_databook_2026q3,Показатели сегментов!O15,
+adj_ebitda,plus,2026Q1,1.078,bn_rub,ydex_databook_2026q3,Показатели сегментов!O59,
+revenue,plus,2026Q2,34.905,bn_rub,ydex_databook_2026q3,Показатели сегментов!P15,
+adj_ebitda,plus,2026Q2,2.736,bn_rub,ydex_databook_2026q3,Показатели сегментов!P59,
+revenue,plus,2024,91.535,bn_rub,ydex_databook_2026q3,Показатели сегментов!C15,
+adj_ebitda,plus,2024,0.669,bn_rub,ydex_databook_2026q3,Показатели сегментов!C59,
+revenue,plus,2025,120.766,bn_rub,ydex_databook_2026q3,Показатели сегментов!E15,
+adj_ebitda,plus,2025,11.641,bn_rub,ydex_databook_2026q3,Показатели сегментов!E59,
+revenue,fintech,2024Q1,4.986,bn_rub,ydex_databook_2026q3,Показатели сегментов!G16,
+adj_ebitda,fintech,2024Q1,-1.49,bn_rub,ydex_databook_2026q3,Показатели сегментов!G60,
+revenue,fintech,2024Q2,7.494,bn_rub,ydex_databook_2026q3,Показатели сегментов!H16,
+adj_ebitda,fintech,2024Q2,-1.744,bn_rub,ydex_databook_2026q3,Показатели сегментов!H60,
+revenue,fintech,2024Q3,8.666,bn_rub,ydex_databook_2026q3,Показатели сегментов!I16,
+adj_ebitda,fintech,2024Q3,-1.135,bn_rub,ydex_databook_2026q3,Показатели сегментов!I60,
+revenue,fintech,2024Q4,12.471,bn_rub,ydex_databook_2026q3,Показатели сегментов!J16,
+adj_ebitda,fintech,2024Q4,-5.236,bn_rub,ydex_databook_2026q3,Показатели сегментов!J60,
+revenue,fintech,2025Q1,16.05,bn_rub,ydex_databook_2026q3,Показатели сегментов!K16,
+adj_ebitda,fintech,2025Q1,-2.327,bn_rub,ydex_databook_2026q3,Показатели сегментов!K60,
+revenue,fintech,2025Q2,19.576,bn_rub,ydex_databook_2026q3,Показатели сегментов!L16,
+adj_ebitda,fintech,2025Q2,-0.213,bn_rub,ydex_databook_2026q3,Показатели сегментов!L60,
+revenue,fintech,2025Q3,23.611,bn_rub,ydex_databook_2026q3,Показатели сегментов!M16,
+adj_ebitda,fintech,2025Q3,0.499,bn_rub,ydex_databook_2026q3,Показатели сегментов!M60,
+revenue,fintech,2025Q4,26.671,bn_rub,ydex_databook_2026q3,Показатели сегментов!N16,
+adj_ebitda,fintech,2025Q4,-0.459,bn_rub,ydex_databook_2026q3,Показатели сегментов!N60,
+revenue,fintech,2026Q1,29.405,bn_rub,ydex_databook_2026q3,Показатели сегментов!O16,
+adj_ebitda,fintech,2026Q1,1.162,bn_rub,ydex_databook_2026q3,Показатели сегментов!O60,
+revenue,fintech,2026Q2,29.484,bn_rub,ydex_databook_2026q3,Показатели сегментов!P16,
+adj_ebitda,fintech,2026Q2,1.92,bn_rub,ydex_databook_2026q3,Показатели сегментов!P60,
+revenue,fintech,2024,33.617,bn_rub,ydex_databook_2026q3,Показатели сегментов!C16,
+adj_ebitda,fintech,2024,-9.606,bn_rub,ydex_databook_2026q3,Показатели сегментов!C60,
+revenue,fintech,2025,85.909,bn_rub,ydex_databook_2026q3,Показатели сегментов!E16,
+adj_ebitda,fintech,2025,-2.499,bn_rub,ydex_databook_2026q3,Показатели сегментов!E60,
+revenue,svoi,2024Q1,2.193,bn_rub,ydex_databook_2026q3,Показатели сегментов!G17,
+adj_ebitda,svoi,2024Q1,0.069,bn_rub,ydex_databook_2026q3,Показатели сегментов!G61,
+revenue,svoi,2024Q2,2.875,bn_rub,ydex_databook_2026q3,Показатели сегментов!H17,
+adj_ebitda,svoi,2024Q2,0.032,bn_rub,ydex_databook_2026q3,Показатели сегментов!H61,
+revenue,svoi,2024Q3,3.163,bn_rub,ydex_databook_2026q3,Показатели сегментов!I17,
+adj_ebitda,svoi,2024Q3,0.093,bn_rub,ydex_databook_2026q3,Показатели сегментов!I61,
+revenue,svoi,2024Q4,4.817,bn_rub,ydex_databook_2026q3,Показатели сегментов!J17,
+adj_ebitda,svoi,2024Q4,0.049,bn_rub,ydex_databook_2026q3,Показатели сегментов!J61,
+revenue,svoi,2025Q1,3.833,bn_rub,ydex_databook_2026q3,Показатели сегментов!K17,
+adj_ebitda,svoi,2025Q1,0.21,bn_rub,ydex_databook_2026q3,Показатели сегментов!K61,
+revenue,svoi,2025Q2,3.496,bn_rub,ydex_databook_2026q3,Показатели сегментов!L17,
+adj_ebitda,svoi,2025Q2,-0.249,bn_rub,ydex_databook_2026q3,Показатели сегментов!L61,
+revenue,svoi,2025Q3,3.834,bn_rub,ydex_databook_2026q3,Показатели сегментов!M17,
+adj_ebitda,svoi,2025Q3,-0.395,bn_rub,ydex_databook_2026q3,Показатели сегментов!M61,
+revenue,svoi,2025Q4,4.789,bn_rub,ydex_databook_2026q3,Показатели сегментов!N17,
+adj_ebitda,svoi,2025Q4,-1.664,bn_rub,ydex_databook_2026q3,Показатели сегментов!N61,
+revenue,svoi,2026Q1,2.692,bn_rub,ydex_databook_2026q3,Показатели сегментов!O17,
+adj_ebitda,svoi,2026Q1,-1.426,bn_rub,ydex_databook_2026q3,Показатели сегментов!O61,
+revenue,svoi,2026Q2,2.571,bn_rub,ydex_databook_2026q3,Показатели сегментов!P17,
+adj_ebitda,svoi,2026Q2,-2.155,bn_rub,ydex_databook_2026q3,Показатели сегментов!P61,
+revenue,svoi,2024,13.049,bn_rub,ydex_databook_2026q3,Показатели сегментов!C17,
+adj_ebitda,svoi,2024,0.244,bn_rub,ydex_databook_2026q3,Показатели сегментов!C61,
+revenue,svoi,2025,15.952,bn_rub,ydex_databook_2026q3,Показатели сегментов!E17,
+adj_ebitda,svoi,2025,-2.1,bn_rub,ydex_databook_2026q3,Показатели сегментов!E61,
+revenue,personal_elim,2024Q1,-1.064,bn_rub,ydex_databook_2026q3,Показатели сегментов!G18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2024Q1,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!G62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2024Q2,-0.713,bn_rub,ydex_databook_2026q3,Показатели сегментов!H18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2024Q2,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!H62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2024Q3,-1.136,bn_rub,ydex_databook_2026q3,Показатели сегментов!I18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2024Q3,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!I62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2024Q4,-2.086,bn_rub,ydex_databook_2026q3,Показатели сегментов!J18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2024Q4,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!J62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2025Q1,-1.683,bn_rub,ydex_databook_2026q3,Показатели сегментов!K18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2025Q1,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!K62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2025Q2,-1.528,bn_rub,ydex_databook_2026q3,Показатели сегментов!L18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2025Q2,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!L62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2025Q3,-1.908,bn_rub,ydex_databook_2026q3,Показатели сегментов!M18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2025Q3,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!M62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2025Q4,-3.218,bn_rub,ydex_databook_2026q3,Показатели сегментов!N18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2025Q4,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!N62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2026Q1,-1.848,bn_rub,ydex_databook_2026q3,Показатели сегментов!O18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2026Q1,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!O62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2026Q2,-2.068,bn_rub,ydex_databook_2026q3,Показатели сегментов!P18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2026Q2,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!P62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2024,-4.999,bn_rub,ydex_databook_2026q3,Показатели сегментов!C18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2024,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!C62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,personal_elim,2025,-8.337,bn_rub,ydex_databook_2026q3,Показатели сегментов!E18,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+adj_ebitda,personal_elim,2025,0,bn_rub,ydex_databook_2026q3,Показатели сегментов!E62,"внутрисегментные расчёты Персональных сервисов (между Плюсом, ФС и Своими Плюсами)"
+revenue,b2b,2024Q1,6.794,bn_rub,ydex_databook_2026q3,Показатели сегментов!G19,
+adj_ebitda,b2b,2024Q1,0.836,bn_rub,ydex_databook_2026q3,Показатели сегментов!G63,
+revenue,b2b,2024Q2,7.471,bn_rub,ydex_databook_2026q3,Показатели сегментов!H19,
+adj_ebitda,b2b,2024Q2,0.567,bn_rub,ydex_databook_2026q3,Показатели сегментов!H63,
+revenue,b2b,2024Q3,8.437,bn_rub,ydex_databook_2026q3,Показатели сегментов!I19,
+adj_ebitda,b2b,2024Q3,1.026,bn_rub,ydex_databook_2026q3,Показатели сегментов!I63,
+revenue,b2b,2024Q4,9.818,bn_rub,ydex_databook_2026q3,Показатели сегментов!J19,
+adj_ebitda,b2b,2024Q4,1.488,bn_rub,ydex_databook_2026q3,Показатели сегментов!J63,
+revenue,b2b,2025Q1,9.99,bn_rub,ydex_databook_2026q3,Показатели сегментов!K19,
+adj_ebitda,b2b,2025Q1,1.764,bn_rub,ydex_databook_2026q3,Показатели сегментов!K63,
+revenue,b2b,2025Q2,11.861,bn_rub,ydex_databook_2026q3,Показатели сегментов!L19,
+adj_ebitda,b2b,2025Q2,2.621,bn_rub,ydex_databook_2026q3,Показатели сегментов!L63,
+revenue,b2b,2025Q3,12.382,bn_rub,ydex_databook_2026q3,Показатели сегментов!M19,
+adj_ebitda,b2b,2025Q3,2.157,bn_rub,ydex_databook_2026q3,Показатели сегментов!M63,
+revenue,b2b,2025Q4,13.92,bn_rub,ydex_databook_2026q3,Показатели сегментов!N19,
+adj_ebitda,b2b,2025Q4,2.905,bn_rub,ydex_databook_2026q3,Показатели сегментов!N63,
+revenue,b2b,2026Q1,13.563,bn_rub,ydex_databook_2026q3,Показатели сегментов!O19,
+adj_ebitda,b2b,2026Q1,2.625,bn_rub,ydex_databook_2026q3,Показатели сегментов!O63,
+revenue,b2b,2026Q2,15.332,bn_rub,ydex_databook_2026q3,Показатели сегментов!P19,
+adj_ebitda,b2b,2026Q2,3.741,bn_rub,ydex_databook_2026q3,Показатели сегментов!P63,
+revenue,b2b,2024,32.52,bn_rub,ydex_databook_2026q3,Показатели сегментов!C19,
+adj_ebitda,b2b,2024,3.917,bn_rub,ydex_databook_2026q3,Показатели сегментов!C63,
+revenue,b2b,2025,48.152,bn_rub,ydex_databook_2026q3,Показатели сегментов!E19,
+adj_ebitda,b2b,2025,9.447,bn_rub,ydex_databook_2026q3,Показатели сегментов!E63,
+revenue,autotech,2024Q1,0.011,bn_rub,ydex_databook_2026q3,Показатели сегментов!G20,
+adj_ebitda,autotech,2024Q1,-1.584,bn_rub,ydex_databook_2026q3,Показатели сегментов!G64,
+revenue,autotech,2024Q2,0.017,bn_rub,ydex_databook_2026q3,Показатели сегментов!H20,
+adj_ebitda,autotech,2024Q2,-1.77,bn_rub,ydex_databook_2026q3,Показатели сегментов!H64,
+revenue,autotech,2024Q3,0.038,bn_rub,ydex_databook_2026q3,Показатели сегментов!I20,
+adj_ebitda,autotech,2024Q3,-2.084,bn_rub,ydex_databook_2026q3,Показатели сегментов!I64,
+revenue,autotech,2024Q4,0.067,bn_rub,ydex_databook_2026q3,Показатели сегментов!J20,
+adj_ebitda,autotech,2024Q4,-2.909,bn_rub,ydex_databook_2026q3,Показатели сегментов!J64,
+revenue,autotech,2025Q1,0.033,bn_rub,ydex_databook_2026q3,Показатели сегментов!K20,
+adj_ebitda,autotech,2025Q1,-3.065,bn_rub,ydex_databook_2026q3,Показатели сегментов!K64,
+revenue,autotech,2025Q2,0.083,bn_rub,ydex_databook_2026q3,Показатели сегментов!L20,
+adj_ebitda,autotech,2025Q2,-3.277,bn_rub,ydex_databook_2026q3,Показатели сегментов!L64,
+revenue,autotech,2025Q3,0.153,bn_rub,ydex_databook_2026q3,Показатели сегментов!M20,
+adj_ebitda,autotech,2025Q3,-4.172,bn_rub,ydex_databook_2026q3,Показатели сегментов!M64,
+revenue,autotech,2025Q4,0.308,bn_rub,ydex_databook_2026q3,Показатели сегментов!N20,
+adj_ebitda,autotech,2025Q4,-4.888,bn_rub,ydex_databook_2026q3,Показатели сегментов!N64,
+revenue,autotech,2026Q1,0.088,bn_rub,ydex_databook_2026q3,Показатели сегментов!O20,
+adj_ebitda,autotech,2026Q1,-5.382,bn_rub,ydex_databook_2026q3,Показатели сегментов!O64,
+revenue,autotech,2026Q2,0.148,bn_rub,ydex_databook_2026q3,Показатели сегментов!P20,
+adj_ebitda,autotech,2026Q2,-6.013,bn_rub,ydex_databook_2026q3,Показатели сегментов!P64,
+revenue,autotech,2024,0.134,bn_rub,ydex_databook_2026q3,Показатели сегментов!C20,
+adj_ebitda,autotech,2024,-8.346,bn_rub,ydex_databook_2026q3,Показатели сегментов!C64,
+revenue,autotech,2025,0.577,bn_rub,ydex_databook_2026q3,Показатели сегментов!E20,
+adj_ebitda,autotech,2025,-15.402,bn_rub,ydex_databook_2026q3,Показатели сегментов!E64,
+revenue,other,2024Q1,2.581,bn_rub,ydex_databook_2026q3,Показатели сегментов!G21,
+adj_ebitda,other,2024Q1,-6.083,bn_rub,ydex_databook_2026q3,Показатели сегментов!G65,
+revenue,other,2024Q2,2.628,bn_rub,ydex_databook_2026q3,Показатели сегментов!H21,
+adj_ebitda,other,2024Q2,-8.231,bn_rub,ydex_databook_2026q3,Показатели сегментов!H65,
+revenue,other,2024Q3,2.948,bn_rub,ydex_databook_2026q3,Показатели сегментов!I21,
+adj_ebitda,other,2024Q3,-6.467,bn_rub,ydex_databook_2026q3,Показатели сегментов!I65,
+revenue,other,2024Q4,3.304,bn_rub,ydex_databook_2026q3,Показатели сегментов!J21,
+adj_ebitda,other,2024Q4,-14.996,bn_rub,ydex_databook_2026q3,Показатели сегментов!J65,
+revenue,other,2025Q1,3.319,bn_rub,ydex_databook_2026q3,Показатели сегментов!K21,
+adj_ebitda,other,2025Q1,-13.463,bn_rub,ydex_databook_2026q3,Показатели сегментов!K65,
+revenue,other,2025Q2,2.968,bn_rub,ydex_databook_2026q3,Показатели сегментов!L21,
+adj_ebitda,other,2025Q2,-4.587,bn_rub,ydex_databook_2026q3,Показатели сегментов!L65,
+revenue,other,2025Q3,2.659,bn_rub,ydex_databook_2026q3,Показатели сегментов!M21,
+adj_ebitda,other,2025Q3,-4.222,bn_rub,ydex_databook_2026q3,Показатели сегментов!M65,
+revenue,other,2025Q4,3.128,bn_rub,ydex_databook_2026q3,Показатели сегментов!N21,
+adj_ebitda,other,2025Q4,-4.485,bn_rub,ydex_databook_2026q3,Показатели сегментов!N65,
+revenue,other,2026Q1,3.121,bn_rub,ydex_databook_2026q3,Показатели сегментов!O21,
+adj_ebitda,other,2026Q1,-1.824,bn_rub,ydex_databook_2026q3,Показатели сегментов!O65,
+revenue,other,2026Q2,3.424,bn_rub,ydex_databook_2026q3,Показатели сегментов!P21,
+adj_ebitda,other,2026Q2,-9.191,bn_rub,ydex_databook_2026q3,Показатели сегментов!P65,
+revenue,other,2024,11.46,bn_rub,ydex_databook_2026q3,Показатели сегментов!C21,
+adj_ebitda,other,2024,-35.776,bn_rub,ydex_databook_2026q3,Показатели сегментов!C65,
+revenue,other,2025,12.073,bn_rub,ydex_databook_2026q3,Показатели сегментов!E21,
+adj_ebitda,other,2025,-26.758,bn_rub,ydex_databook_2026q3,Показатели сегментов!E65,
+revenue,groups_elim,2024Q1,-33.567,bn_rub,ydex_databook_2026q3,Показатели сегментов!G22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2024Q1,0.04,bn_rub,ydex_databook_2026q3,Показатели сегментов!G66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2024Q2,-36.75,bn_rub,ydex_databook_2026q3,Показатели сегментов!H22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2024Q2,0.221845,bn_rub,ydex_databook_2026q3,Показатели сегментов!H66,"межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»); в датабуке дробное 221,845 млн (подгон суммы), округлено до тыс. руб."
+revenue,groups_elim,2024Q3,-41.374,bn_rub,ydex_databook_2026q3,Показатели сегментов!I22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2024Q3,-0.18,bn_rub,ydex_databook_2026q3,Показатели сегментов!I66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2024Q4,-63.494,bn_rub,ydex_databook_2026q3,Показатели сегментов!J22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2024Q4,-0.299,bn_rub,ydex_databook_2026q3,Показатели сегментов!J66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2025Q1,-56.18,bn_rub,ydex_databook_2026q3,Показатели сегментов!K22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2025Q1,-0.032,bn_rub,ydex_databook_2026q3,Показатели сегментов!K66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2025Q2,-40.84,bn_rub,ydex_databook_2026q3,Показатели сегментов!L22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2025Q2,-0.414,bn_rub,ydex_databook_2026q3,Показатели сегментов!L66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2025Q3,-42.82,bn_rub,ydex_databook_2026q3,Показатели сегментов!M22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2025Q3,-0.992,bn_rub,ydex_databook_2026q3,Показатели сегментов!M66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2025Q4,-49.862,bn_rub,ydex_databook_2026q3,Показатели сегментов!N22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2025Q4,-0.427,bn_rub,ydex_databook_2026q3,Показатели сегментов!N66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2026Q1,-39.625,bn_rub,ydex_databook_2026q3,Показатели сегментов!O22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2026Q1,2.705,bn_rub,ydex_databook_2026q3,Показатели сегментов!O66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2026Q2,-50.508,bn_rub,ydex_databook_2026q3,Показатели сегментов!P22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2026Q2,-0.273,bn_rub,ydex_databook_2026q3,Показатели сегментов!P66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2024,-175.185,bn_rub,ydex_databook_2026q3,Показатели сегментов!C22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2024,-0.218,bn_rub,ydex_databook_2026q3,Показатели сегментов!C66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,groups_elim,2025,-189.702,bn_rub,ydex_databook_2026q3,Показатели сегментов!E22,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+adj_ebitda,groups_elim,2025,-1.864,bn_rub,ydex_databook_2026q3,Показатели сегментов!E66,межсегментные расчёты между бизнес-группами датабука (строка «Межсегментные расчеты»)
+revenue,,2024Q1,228.314,bn_rub,ydex_databook_2026q3,Показатели сегментов!G24,
+adj_ebitda,,2024Q1,37.601,bn_rub,ydex_databook_2026q3,Показатели сегментов!G68,
+revenue,,2024Q2,249.315,bn_rub,ydex_databook_2026q3,Показатели сегментов!H24,
+adj_ebitda,,2024Q2,47.605,bn_rub,ydex_databook_2026q3,Показатели сегментов!H68,
+revenue,,2024Q3,276.786,bn_rub,ydex_databook_2026q3,Показатели сегментов!I24,
+adj_ebitda,,2024Q3,54.666,bn_rub,ydex_databook_2026q3,Показатели сегментов!I68,
+revenue,,2024Q4,340.145,bn_rub,ydex_databook_2026q3,Показатели сегментов!J24,
+adj_ebitda,,2024Q4,48.73,bn_rub,ydex_databook_2026q3,Показатели сегментов!J68,
+revenue,,2025Q1,306.502,bn_rub,ydex_databook_2026q3,Показатели сегментов!K24,
+adj_ebitda,,2025Q1,48.894,bn_rub,ydex_databook_2026q3,Показатели сегментов!K68,
+revenue,,2025Q2,332.524,bn_rub,ydex_databook_2026q3,Показатели сегментов!L24,
+adj_ebitda,,2025Q2,66.047,bn_rub,ydex_databook_2026q3,Показатели сегментов!L68,
+revenue,,2025Q3,366.061,bn_rub,ydex_databook_2026q3,Показатели сегментов!M24,
+adj_ebitda,,2025Q3,78.059,bn_rub,ydex_databook_2026q3,Показатели сегментов!M68,
+revenue,,2025Q4,436.011,bn_rub,ydex_databook_2026q3,Показатели сегментов!N24,
+adj_ebitda,,2025Q4,87.834,bn_rub,ydex_databook_2026q3,Показатели сегментов!N68,
+revenue,,2026Q1,372.706,bn_rub,ydex_databook_2026q3,Показатели сегментов!O24,
+adj_ebitda,,2026Q1,73.331,bn_rub,ydex_databook_2026q3,Показатели сегментов!O68,
+revenue,,2026Q2,386.308,bn_rub,ydex_databook_2026q3,Показатели сегментов!P24,
+adj_ebitda,,2026Q2,88.875,bn_rub,ydex_databook_2026q3,Показатели сегментов!P68,
+revenue,,2024,1094.56,bn_rub,ydex_databook_2026q3,Показатели сегментов!C24,
+adj_ebitda,,2024,188.602,bn_rub,ydex_databook_2026q3,Показатели сегментов!C68,
+revenue,,2025,1441.098,bn_rub,ydex_databook_2026q3,Показатели сегментов!E24,
+adj_ebitda,,2025,280.834,bn_rub,ydex_databook_2026q3,Показатели сегментов!E68,
+da_total,,2023Q1,10.74,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+da_total,,2023Q2,11.875,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+da_total,,2023Q3,13.435,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+da_total,,2023Q4,13.295,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+da_total,,2024Q1,13.744,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2024Q2,14.849,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2024Q3,16.023,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2024Q4,18.448,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2025Q1,18.158,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2025Q2,19.299,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2025Q3,20.712,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2025Q4,22.428,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2026Q1,24.074,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2026Q2,25.456,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2023,49.345,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+da_total,,2024,63.064,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+da_total,,2025,80.597,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G10,"амортизация ОС, НМА и прав пользования (вся) — строка сверки скорр. EBITDA"
+sbc,,2023Q1,3.012,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+sbc,,2023Q2,1.246,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+sbc,,2023Q3,0.479,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+sbc,,2023Q4,8.885,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+sbc,,2024Q1,1.806,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2024Q2,51.442,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2024Q3,16.992,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2024Q4,18.828,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2025Q1,16.527083,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2025Q2,11.473597,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2025Q3,10.306,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2025Q4,11.805585,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2026Q1,10.43955,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2026Q2,7.856,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2023,13.622,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA; 2023 — консолидированные и комбинированные данные"
+sbc,,2024,89.067845,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+sbc,,2025,50.113266,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G11,"вознаграждения на основе акций и прочие связанные расходы — то, что исключено из скорр. EBITDA"
+income_tax,,2023Q1,1.873,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I19,расход по налогу на прибыль (МСФО); 2023 — консолидированные и комбинированные данные
+income_tax,,2023Q2,4.611,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J19,расход по налогу на прибыль (МСФО); 2023 — консолидированные и комбинированные данные
+income_tax,,2023Q3,7.422,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K19,расход по налогу на прибыль (МСФО); 2023 — консолидированные и комбинированные данные
+income_tax,,2023Q4,6.397,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L19,расход по налогу на прибыль (МСФО); 2023 — консолидированные и комбинированные данные
+income_tax,,2024Q1,0.631,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M19,расход по налогу на прибыль (МСФО)
+income_tax,,2024Q2,6.335,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N19,расход по налогу на прибыль (МСФО)
+income_tax,,2024Q3,11.635,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O19,расход по налогу на прибыль (МСФО)
+income_tax,,2024Q4,-4.2,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P19,расход по налогу на прибыль (МСФО)
+income_tax,,2025Q1,10.934,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q19,расход по налогу на прибыль (МСФО)
+income_tax,,2025Q2,8.556,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R19,расход по налогу на прибыль (МСФО)
+income_tax,,2025Q3,6.251,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S19,расход по налогу на прибыль (МСФО)
+income_tax,,2025Q4,5.773,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T19,расход по налогу на прибыль (МСФО)
+income_tax,,2026Q1,8.024,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U19,расход по налогу на прибыль (МСФО)
+income_tax,,2026Q2,12.581,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V19,расход по налогу на прибыль (МСФО)
+income_tax,,2023,20.303,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C19,расход по налогу на прибыль (МСФО); 2023 — консолидированные и комбинированные данные
+income_tax,,2024,14.402,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E19,расход по налогу на прибыль (МСФО)
+income_tax,,2025,31.513,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G19,расход по налогу на прибыль (МСФО)
+da_office_rou,,2023Q1,2.755,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I20,амортизация прав пользования по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+da_office_rou,,2023Q2,2.791,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J20,амортизация прав пользования по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+da_office_rou,,2023Q3,2.683,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K20,амортизация прав пользования по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+da_office_rou,,2023Q4,2.894,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L20,амортизация прав пользования по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+da_office_rou,,2024Q1,2.322,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2024Q2,3.194,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2024Q3,2.806,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2024Q4,3.004,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2025Q1,3.039,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2025Q2,3.308,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2025Q3,3.364,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2025Q4,3.523,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2026Q1,4.154,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2026Q2,4.432,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2023,11.123,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C20,амортизация прав пользования по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+da_office_rou,,2024,11.326,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E20,амортизация прав пользования по операционной аренде (офисы); знак снят
+da_office_rou,,2025,13.234,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G20,амортизация прав пользования по операционной аренде (офисы); знак снят
+office_lease_interest,,2023Q1,0.559,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I21,проценты по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+office_lease_interest,,2023Q2,0.544,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J21,проценты по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+office_lease_interest,,2023Q3,0.708,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K21,проценты по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+office_lease_interest,,2023Q4,0.916,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L21,проценты по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+office_lease_interest,,2024Q1,1.199,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2024Q2,1.324,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2024Q3,1.419,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2024Q4,1.945,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2025Q1,2.35,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2025Q2,2.553,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2025Q3,2.624,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2025Q4,2.876,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2026Q1,3.178,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2026Q2,3.257,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2023,2.727,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C21,проценты по операционной аренде (офисы); знак снят; 2023 — консолидированные и комбинированные данные
+office_lease_interest,,2024,5.887,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E21,проценты по операционной аренде (офисы); знак снят
+office_lease_interest,,2025,10.403,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G21,проценты по операционной аренде (офисы); знак снят
+capex,,2023Q1,6.283,bn_rub,ydex_databook_2026q3,ОДДС!C9,"приобретение ОС и НМА (отток), знак снят; 2023 — консолидированные и комбинированные"
+capex,,2023Q2,17.337,bn_rub,ydex_databook_2026q3,ОДДС!D9,"приобретение ОС и НМА (отток), знак снят; 2023 — консолидированные и комбинированные"
+capex,,2023Q3,24.072,bn_rub,ydex_databook_2026q3,ОДДС!F9,"приобретение ОС и НМА (отток), знак снят; 2023 — консолидированные и комбинированные"
+capex,,2023Q4,36.49,bn_rub,ydex_databook_2026q3,ОДДС!H9,"приобретение ОС и НМА (отток), знак снят; 2023 — консолидированные и комбинированные"
+capex,,2024Q1,18.391,bn_rub,ydex_databook_2026q3,ОДДС!L9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2024Q2,22.506,bn_rub,ydex_databook_2026q3,ОДДС!M9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2024Q3,37.975,bn_rub,ydex_databook_2026q3,ОДДС!O9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2024Q4,45.752,bn_rub,ydex_databook_2026q3,ОДДС!Q9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2025Q1,24.108,bn_rub,ydex_databook_2026q3,ОДДС!U9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2025Q2,23.127,bn_rub,ydex_databook_2026q3,ОДДС!V9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2025Q3,39.684,bn_rub,ydex_databook_2026q3,ОДДС!X9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2025Q4,58.949,bn_rub,ydex_databook_2026q3,ОДДС!Z9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2026Q1,18.949,bn_rub,ydex_databook_2026q3,ОДДС!AD9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2026Q2,41.143,bn_rub,ydex_databook_2026q3,ОДДС!AE9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2023,84.182,bn_rub,ydex_databook_2026q3,ОДДС!J9,"приобретение ОС и НМА (отток), знак снят; 2023 — консолидированные и комбинированные"
+capex,,2024,124.624,bn_rub,ydex_databook_2026q3,ОДДС!S9,"приобретение ОС и НМА (отток), знак снят"
+capex,,2025,145.868,bn_rub,ydex_databook_2026q3,ОДДС!AB9,"приобретение ОС и НМА (отток), знак снят"
+dividends_paid,,2026Q1,0,bn_rub,ydex_databook_2026q3,ОДДС!AD20,"выплата дивидендов (отток), знак снят"
+own_shares_purchased,,2026Q1,0,bn_rub,ydex_databook_2026q3,ОДДС!AD26,"приобретение собственных акций (отток), знак снят"
+acquisitions,,2026Q1,4.044,bn_rub,ydex_databook_2026q3,ОДДС!AD15,"приобретение дочерних компаний за вычетом денег (отток), знак снят"
+disposals,,2026Q1,17.5,bn_rub,ydex_databook_2026q3,ОДДС!AD14,поступления от выбытия дочерних компаний (Авто.ру) за вычетом денег
+lease_principal,,2026Q1,3.994,bn_rub,ydex_databook_2026q3,ОДДС!AD19,"погашение основной суммы аренды (отток), знак снят"
+dividends_paid,,2026Q2,42.002,bn_rub,ydex_databook_2026q3,ОДДС!AE20,"выплата дивидендов (отток), знак снят"
+own_shares_purchased,,2026Q2,7.293,bn_rub,ydex_databook_2026q3,ОДДС!AE26,"приобретение собственных акций (отток), знак снят"
+acquisitions,,2026Q2,1.083,bn_rub,ydex_databook_2026q3,ОДДС!AE15,"приобретение дочерних компаний за вычетом денег (отток), знак снят"
+disposals,,2026Q2,13.186,bn_rub,ydex_databook_2026q3,ОДДС!AE14,поступления от выбытия дочерних компаний (Авто.ру) за вычетом денег
+lease_principal,,2026Q2,5.448,bn_rub,ydex_databook_2026q3,ОДДС!AE19,"погашение основной суммы аренды (отток), знак снят"
+lease_office_c,,2025H2,10.758426,bn_rub,ydex_databook_2026q3,ОФП!Q48,"краткосрочные обязательства по операционной аренде (офисы), на конец периода; округлено до млн"
+lease_office_nc,,2025H2,51.531621,bn_rub,ydex_databook_2026q3,ОФП!Q49,"долгосрочные обязательства по операционной аренде (офисы), на конец периода; округлено до млн"
+lease_office_c,,2026H1,13.760971,bn_rub,ydex_databook_2026q3,ОФП!U48,"краткосрочные обязательства по операционной аренде (офисы), на конец периода; округлено до млн"
+lease_office_nc,,2026H1,53.187732,bn_rub,ydex_databook_2026q3,ОФП!U49,"долгосрочные обязательства по операционной аренде (офисы), на конец периода; округлено до млн"
+bs_ppe,,2026H1,368.509,bn_rub,ydex_ifrs_6m2026,4,основные средства; на 30.06.2026
+bs_ppe,,2025H2,331.165,bn_rub,ydex_ifrs_6m2026,4,основные средства; на 31.12.2025
+bs_goodwill,,2026H1,153.518,bn_rub,ydex_ifrs_6m2026,4,гудвил; на 30.06.2026
+bs_goodwill,,2025H2,159.774,bn_rub,ydex_ifrs_6m2026,4,гудвил; на 31.12.2025
+bs_rou,,2026H1,91.561,bn_rub,ydex_ifrs_6m2026,4,активы в форме права пользования (все классы); на 30.06.2026
+bs_rou,,2025H2,92.336,bn_rub,ydex_ifrs_6m2026,4,активы в форме права пользования (все классы); на 31.12.2025
+bs_content_assets,,2026H1,50.291,bn_rub,ydex_ifrs_6m2026,4,контентные активы; на 30.06.2026
+bs_content_assets,,2025H2,48.092,bn_rub,ydex_ifrs_6m2026,4,контентные активы; на 31.12.2025
+bs_intangibles_other,,2026H1,24.158,bn_rub,ydex_ifrs_6m2026,4,прочие нематериальные активы (без гудвила); на 30.06.2026
+bs_intangibles_other,,2025H2,27.372,bn_rub,ydex_ifrs_6m2026,4,прочие нематериальные активы (без гудвила); на 31.12.2025
+bs_dta,,2026H1,30.996,bn_rub,ydex_ifrs_6m2026,4,отложенные налоговые активы; на 30.06.2026
+bs_dta,,2025H2,29.886,bn_rub,ydex_ifrs_6m2026,4,отложенные налоговые активы; на 31.12.2025
+bs_loans_customers_nc,,2026H1,35.751,bn_rub,ydex_ifrs_6m2026,4,"кредиты клиентам, внеоборотные (ФС); на 30.06.2026"
+bs_loans_customers_nc,,2025H2,26.068,bn_rub,ydex_ifrs_6m2026,4,"кредиты клиентам, внеоборотные (ФС); на 31.12.2025"
+bs_debt_securities_nc,,2026H1,39.462,bn_rub,ydex_ifrs_6m2026,4,"инвестиции в долговые ценные бумаги, внеоборотные; на 30.06.2026"
+bs_debt_securities_nc,,2025H2,24.811,bn_rub,ydex_ifrs_6m2026,4,"инвестиции в долговые ценные бумаги, внеоборотные; на 31.12.2025"
+bs_other_nc_assets,,2026H1,43.307,bn_rub,ydex_ifrs_6m2026,4,прочие внеоборотные активы; на 30.06.2026
+bs_other_nc_assets,,2025H2,39.642,bn_rub,ydex_ifrs_6m2026,4,прочие внеоборотные активы; на 31.12.2025
+bs_inventories,,2026H1,44.028,bn_rub,ydex_ifrs_6m2026,4,запасы; на 30.06.2026
+bs_inventories,,2025H2,33.188,bn_rub,ydex_ifrs_6m2026,4,запасы; на 31.12.2025
+bs_trade_receivables,,2026H1,90.526,bn_rub,ydex_ifrs_6m2026,4,торговая дебиторская задолженность; на 30.06.2026
+bs_trade_receivables,,2025H2,95.515,bn_rub,ydex_ifrs_6m2026,4,торговая дебиторская задолженность; на 31.12.2025
+bs_advances_paid,,2026H1,27.99,bn_rub,ydex_ifrs_6m2026,4,авансы выданные; на 30.06.2026
+bs_advances_paid,,2025H2,22.991,bn_rub,ydex_ifrs_6m2026,4,авансы выданные; на 31.12.2025
+bs_vat_receivable,,2026H1,42.521,bn_rub,ydex_ifrs_6m2026,4,НДС к возмещению; на 30.06.2026
+bs_vat_receivable,,2025H2,32.5,bn_rub,ydex_ifrs_6m2026,4,НДС к возмещению; на 31.12.2025
+bs_loans_customers_c,,2026H1,97.757,bn_rub,ydex_ifrs_6m2026,4,"кредиты клиентам, оборотные (ФС); на 30.06.2026"
+bs_loans_customers_c,,2025H2,91.409,bn_rub,ydex_ifrs_6m2026,4,"кредиты клиентам, оборотные (ФС); на 31.12.2025"
+bs_debt_securities_c,,2026H1,7.472,bn_rub,ydex_ifrs_6m2026,4,"инвестиции в долговые ценные бумаги, оборотные; на 30.06.2026"
+bs_debt_securities_c,,2025H2,15.205,bn_rub,ydex_ifrs_6m2026,4,"инвестиции в долговые ценные бумаги, оборотные; на 31.12.2025"
+bs_unsettled_receivables,,2026H1,10.449,bn_rub,ydex_ifrs_6m2026,4,средства к получению по незавершённым расчётам; на 30.06.2026
+bs_unsettled_receivables,,2025H2,10.041,bn_rub,ydex_ifrs_6m2026,4,средства к получению по незавершённым расчётам; на 31.12.2025
+bs_cash,,2026H1,296.024,bn_rub,ydex_ifrs_6m2026,4,денежные средства и их эквиваленты; на 30.06.2026
+bs_cash,,2025H2,250.21,bn_rub,ydex_ifrs_6m2026,4,денежные средства и их эквиваленты; на 31.12.2025
+bs_other_c_assets,,2026H1,38.21,bn_rub,ydex_ifrs_6m2026,4,прочие оборотные активы (разбивка — стр. 17); на 30.06.2026
+bs_other_c_assets,,2025H2,38.137,bn_rub,ydex_ifrs_6m2026,4,прочие оборотные активы (разбивка — стр. 17); на 31.12.2025
+bs_total_assets,,2026H1,1492.53,bn_rub,ydex_ifrs_6m2026,4,итого активы; на 30.06.2026
+bs_total_assets,,2025H2,1368.342,bn_rub,ydex_ifrs_6m2026,4,итого активы; на 31.12.2025
+bs_equity,,2026H1,406.268,bn_rub,ydex_ifrs_6m2026,4,итого собственный капитал; на 30.06.2026
+bs_equity,,2025H2,351.216,bn_rub,ydex_ifrs_6m2026,4,итого собственный капитал; на 31.12.2025
+bs_debt_nc,,2026H1,205.474,bn_rub,ydex_ifrs_6m2026,4,долговые обязательства долгосрочные; на 30.06.2026
+bs_debt_nc,,2025H2,179.621,bn_rub,ydex_ifrs_6m2026,4,долговые обязательства долгосрочные; на 31.12.2025
+bs_lease_nc,,2026H1,69.695,bn_rub,ydex_ifrs_6m2026,4,обязательства по аренде долгосрочные; на 30.06.2026
+bs_lease_nc,,2025H2,72.203,bn_rub,ydex_ifrs_6m2026,4,обязательства по аренде долгосрочные; на 31.12.2025
+bs_dtl,,2026H1,16.813,bn_rub,ydex_ifrs_6m2026,4,отложенные налоговые обязательства; на 30.06.2026
+bs_dtl,,2025H2,15.976,bn_rub,ydex_ifrs_6m2026,4,отложенные налоговые обязательства; на 31.12.2025
+bs_fs_liabilities_nc,,2026H1,19.299,bn_rub,ydex_ifrs_6m2026,4,"клиентские депозиты и прочие фин. обязательства ФС, долгосрочные; на 30.06.2026"
+bs_fs_liabilities_nc,,2025H2,17.775,bn_rub,ydex_ifrs_6m2026,4,"клиентские депозиты и прочие фин. обязательства ФС, долгосрочные; на 31.12.2025"
+bs_other_nc_liabilities,,2026H1,8.186,bn_rub,ydex_ifrs_6m2026,4,прочие долгосрочные обязательства; на 30.06.2026
+bs_other_nc_liabilities,,2025H2,8.982,bn_rub,ydex_ifrs_6m2026,4,прочие долгосрочные обязательства; на 31.12.2025
+bs_payables,,2026H1,204.278,bn_rub,ydex_ifrs_6m2026,4,кредиторская задолженность и прочие обязательства (разбивка — стр. 18); на 30.06.2026
+bs_payables,,2025H2,210.42,bn_rub,ydex_ifrs_6m2026,4,кредиторская задолженность и прочие обязательства (разбивка — стр. 18); на 31.12.2025
+bs_debt_c,,2026H1,71.828,bn_rub,ydex_ifrs_6m2026,4,долговые обязательства краткосрочные; на 30.06.2026
+bs_debt_c,,2025H2,90.051,bn_rub,ydex_ifrs_6m2026,4,долговые обязательства краткосрочные; на 31.12.2025
+bs_fs_liabilities_c,,2026H1,314.093,bn_rub,ydex_ifrs_6m2026,4,"клиентские депозиты и прочие фин. обязательства ФС, краткосрочные; на 30.06.2026"
+bs_fs_liabilities_c,,2025H2,249.695,bn_rub,ydex_ifrs_6m2026,4,"клиентские депозиты и прочие фин. обязательства ФС, краткосрочные; на 31.12.2025"
+bs_income_tax_payable,,2026H1,14.073,bn_rub,ydex_ifrs_6m2026,4,обязательства по налогу на прибыль; на 30.06.2026
+bs_income_tax_payable,,2025H2,17.314,bn_rub,ydex_ifrs_6m2026,4,обязательства по налогу на прибыль; на 31.12.2025
+bs_other_taxes_payable,,2026H1,50.644,bn_rub,ydex_ifrs_6m2026,4,обязательства по прочим налогам; на 30.06.2026
+bs_other_taxes_payable,,2025H2,49.308,bn_rub,ydex_ifrs_6m2026,4,обязательства по прочим налогам; на 31.12.2025
+bs_contract_liabilities,,2026H1,40.848,bn_rub,ydex_ifrs_6m2026,4,обязательства по договорам с покупателями; на 30.06.2026
+bs_contract_liabilities,,2025H2,39.907,bn_rub,ydex_ifrs_6m2026,4,обязательства по договорам с покупателями; на 31.12.2025
+bs_provisions,,2026H1,48.029,bn_rub,ydex_ifrs_6m2026,4,оценочные обязательства; на 30.06.2026
+bs_provisions,,2025H2,47.534,bn_rub,ydex_ifrs_6m2026,4,оценочные обязательства; на 31.12.2025
+bs_lease_c,,2026H1,23.002,bn_rub,ydex_ifrs_6m2026,4,обязательства по аренде краткосрочные; на 30.06.2026
+bs_lease_c,,2025H2,18.34,bn_rub,ydex_ifrs_6m2026,4,обязательства по аренде краткосрочные; на 31.12.2025
+oca_other_receivables,,2026H1,12.949,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: прочая дебиторская задолженность; на 30.06.2026
+oca_other_receivables,,2025H2,11.261,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: прочая дебиторская задолженность; на 31.12.2025
+oca_fin_investments,,2026H1,10.005,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: вложения в прочие финансовые активы; на 30.06.2026
+oca_fin_investments,,2025H2,10.07,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: вложения в прочие финансовые активы; на 31.12.2025
+oca_income_tax_prepaid,,2026H1,4.091,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: авансы по налогу на прибыль; на 30.06.2026
+oca_income_tax_prepaid,,2025H2,3.194,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: авансы по налогу на прибыль; на 31.12.2025
+oca_net_lease_investment,,2026H1,2.466,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: чистые инвестиции в аренду; на 30.06.2026
+oca_net_lease_investment,,2025H2,2.47,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: чистые инвестиции в аренду; на 31.12.2025
+oca_loans_employees,,2026H1,1.8,bn_rub,ydex_ifrs_6m2026,17,"прочие оборотные активы: займы, выданные сотрудникам; на 30.06.2026"
+oca_loans_employees,,2025H2,1.85,bn_rub,ydex_ifrs_6m2026,17,"прочие оборотные активы: займы, выданные сотрудникам; на 31.12.2025"
+oca_loans_third,,2026H1,1.367,bn_rub,ydex_ifrs_6m2026,17,"прочие оборотные активы: займы, выданные третьим сторонам; на 30.06.2026"
+oca_loans_third,,2025H2,1.492,bn_rub,ydex_ifrs_6m2026,17,"прочие оборотные активы: займы, выданные третьим сторонам; на 31.12.2025"
+oca_contract_assets,,2026H1,1.297,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: активы по договорам с покупателями; на 30.06.2026
+oca_contract_assets,,2025H2,1.781,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: активы по договорам с покупателями; на 31.12.2025
+oca_loans_related,,2026H1,0.186,bn_rub,ydex_ifrs_6m2026,17,"прочие оборотные активы: займы, выданные связанным сторонам; на 30.06.2026"
+oca_loans_related,,2025H2,0.193,bn_rub,ydex_ifrs_6m2026,17,"прочие оборотные активы: займы, выданные связанным сторонам; на 31.12.2025"
+oca_other,,2026H1,4.049,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: прочее; на 30.06.2026
+oca_other,,2025H2,5.826,bn_rub,ydex_ifrs_6m2026,17,прочие оборотные активы: прочее; на 31.12.2025
+pay_trade,,2026H1,152.284,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: торговая кредиторская задолженность и начисленные обязательства; на 30.06.2026
+pay_trade,,2025H2,153.043,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: торговая кредиторская задолженность и начисленные обязательства; на 31.12.2025
+pay_supply_financing,,2026H1,19.427,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: обязательства по соглашениям о финансировании поставок; на 30.06.2026
+pay_supply_financing,,2025H2,25.874,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: обязательства по соглашениям о финансировании поставок; на 31.12.2025
+pay_payroll,,2026H1,18.081,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: обязательства по заработной плате и компенсациям; на 30.06.2026
+pay_payroll,,2025H2,10.63,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: обязательства по заработной плате и компенсациям; на 31.12.2025
+pay_content,,2026H1,5.381,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: контентные обязательства; на 30.06.2026
+pay_content,,2025H2,8.79,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: контентные обязательства; на 31.12.2025
+pay_other,,2026H1,9.105,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: прочие обязательства; на 30.06.2026
+pay_other,,2025H2,12.083,bn_rub,ydex_ifrs_6m2026,18,кредиторская задолженность: прочие обязательства; на 31.12.2025
+debt_loans,,2026H1,111.256,bn_rub,ydex_ifrs_6m2026,14,долг: кредитные обязательства; на 30.06.2026
+debt_loans,,2025H2,155.419,bn_rub,ydex_ifrs_6m2026,14,долг: кредитные обязательства; на 31.12.2025
+debt_bonds,,2026H1,166,bn_rub,ydex_ifrs_6m2026,14,долг: биржевые облигации; на 30.06.2026
+debt_bonds,,2025H2,105.742,bn_rub,ydex_ifrs_6m2026,14,долг: биржевые облигации; на 31.12.2025
+debt_supply_financing,,2026H1,0.046,bn_rub,ydex_ifrs_6m2026,14,долг: финансирование поставок в составе долга; на 30.06.2026
+debt_supply_financing,,2025H2,8.511,bn_rub,ydex_ifrs_6m2026,14,долг: финансирование поставок в составе долга; на 31.12.2025
+revenue_ifrs,search,2026H1,260.029,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,search,2025H1,249.775,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,search,2026H1,116.592,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,search,2025H1,113.319,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,ecom,2026H1,247.122,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,ecom,2025H1,207.617,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,ecom,2026H1,-5.958,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,ecom,2025H1,-24.832,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,ridetech,2026H1,149.062,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,ridetech,2025H1,128.415,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,ridetech,2026H1,66.654,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,ridetech,2025H1,48.587,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,delivery,2026H1,45.479,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,delivery,2025H1,40.192,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,delivery,2026H1,-4.785,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,delivery,2025H1,-2.664,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,plus,2026H1,67.104,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,plus,2025H1,57.426,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,plus,2026H1,3.814,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,plus,2025H1,3.563,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,fintech,2026H1,58.889,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,fintech,2025H1,35.626,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,fintech,2026H1,3.082,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,fintech,2025H1,-2.54,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,svoi,2026H1,5.263,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,svoi,2025H1,7.329,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,svoi,2026H1,-3.58,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,svoi,2025H1,-0.04,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,b2b,2026H1,28.895,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,b2b,2025H1,21.851,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,b2b,2026H1,6.366,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,b2b,2025H1,4.385,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,autotech,2026H1,0.236,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,autotech,2025H1,0.116,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,autotech,2026H1,-11.395,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,autotech,2025H1,-6.342,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,other,2026H1,6.545,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,other,2025H1,6.288,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,other,2026H1,-11.015,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,other,2025H1,-18.05,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,ifrs_elim,2026H1,-109.61,bn_rub,ydex_ifrs_6m2026,12,МСФО: «Расчеты между сегментами» — все расчёты между девятью отчётными сегментами
+revenue_ifrs,ifrs_elim,2025H1,-115.609,bn_rub,ydex_ifrs_6m2026,12,МСФО: «Расчеты между сегментами» — все расчёты между девятью отчётными сегментами
+adj_ebitda_ifrs,ifrs_elim,2026H1,2.431,bn_rub,ydex_ifrs_6m2026,12,МСФО: «Расчеты между сегментами» — все расчёты между девятью отчётными сегментами
+adj_ebitda_ifrs,ifrs_elim,2025H1,-0.444,bn_rub,ydex_ifrs_6m2026,12,МСФО: «Расчеты между сегментами» — все расчёты между девятью отчётными сегментами
+revenue_ifrs,,2026H1,759.014,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+revenue_ifrs,,2025H1,639.026,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,,2026H1,162.206,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+adj_ebitda_ifrs,,2025H1,114.942,bn_rub,ydex_ifrs_6m2026,12,сегмент МСФО
+tax_rate_diff,,2026H1,-14.771,bn_rub,ydex_ifrs_6m2026,16,сверка налога: разница в ставках налога дочерних компаний
+tax_rate_diff,,2025H1,-10.33,bn_rub,ydex_ifrs_6m2026,16,сверка налога: разница в ставках налога дочерних компаний
+tax_rate_diff,,2025,-30.475,bn_rub,ydex_ifrs_fy2025,31,сверка налога: разница в ставках налога дочерних компаний
+tax_rate_diff,,2024,-16.581,bn_rub,ydex_ifrs_fy2025,31,сверка налога: разница в ставках (база 2024 г. — ставка 20 %)
+rou_additions,premises,2026H1,11.564,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,cars,2026H1,1.436,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,land,2026H1,0,bn_rub,ydex_ifrs_6m2026,20,прирост права пользования; в документе «—»
+rou_additions,other,2026H1,0.056,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,total,2026H1,13.056,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,premises,2025H1,9.843,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,cars,2025H1,1.682,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,land,2025H1,0,bn_rub,ydex_ifrs_6m2026,20,прирост права пользования; в документе «—»
+rou_additions,other,2025H1,0.118,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,total,2025H1,11.643,bn_rub,ydex_ifrs_6m2026,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,premises,2025,27.115,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,cars,2025,2.621,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,land,2025,0,bn_rub,ydex_ifrs_fy2025,36,прирост права пользования; в документе «—»
+rou_additions,other,2025,0.137,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,total,2025,29.873,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,premises,2024,29.496,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,cars,2024,7.588,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,land,2024,0.173,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,other,2024,0.043,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,total,2024,37.3,bn_rub,ydex_ifrs_fy2025,36,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,premises,2024H1,13.795,bn_rub,ydex_ifrs_6m2025,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,cars,2024H1,2.693,bn_rub,ydex_ifrs_6m2025,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,land,2024H1,0.173,bn_rub,ydex_ifrs_6m2025,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_additions,other,2024H1,0,bn_rub,ydex_ifrs_6m2025,20,прирост права пользования; в документе «—»
+rou_additions,total,2024H1,16.661,bn_rub,ydex_ifrs_6m2025,20,"прирост права пользования (новые договоры, модификации, индексации)"
+rou_balance,premises,2026H1,63.23,bn_rub,ydex_ifrs_6m2026,20,"право пользования по классам, на конец периода"
+rou_balance,cars,2026H1,19.536,bn_rub,ydex_ifrs_6m2026,20,"право пользования по классам, на конец периода"
+rou_balance,land,2026H1,8.618,bn_rub,ydex_ifrs_6m2026,20,"право пользования по классам, на конец периода"
+rou_balance,other,2026H1,0.177,bn_rub,ydex_ifrs_6m2026,20,"право пользования по классам, на конец периода"
+rou_balance,total,2026H1,91.561,bn_rub,ydex_ifrs_6m2026,20,"право пользования по классам, на конец периода"
+rou_balance,premises,2025H2,61.959,bn_rub,ydex_ifrs_fy2025,36,"право пользования по классам, на конец периода"
+rou_balance,cars,2025H2,21.475,bn_rub,ydex_ifrs_fy2025,36,"право пользования по классам, на конец периода"
+rou_balance,land,2025H2,8.744,bn_rub,ydex_ifrs_fy2025,36,"право пользования по классам, на конец периода"
+rou_balance,other,2025H2,0.158,bn_rub,ydex_ifrs_fy2025,36,"право пользования по классам, на конец периода"
+rou_balance,total,2025H2,92.336,bn_rub,ydex_ifrs_fy2025,36,"право пользования по классам, на конец периода"
+revenue_classifieds,,2025H1,17.31,bn_rub,ydex_ifrs_6m2025,11,"выручка прежнего сегмента «Сервисы объявлений» (Авто.ру, Недвижимость, Аренда, Путешествия, Услуги); выручка самого Авто.ру не раскрыта"
+revenue_classifieds,,2024H1,15.31,bn_rub,ydex_ifrs_6m2025,11,"выручка прежнего сегмента «Сервисы объявлений» (Авто.ру, Недвижимость, Аренда, Путешествия, Услуги); выручка самого Авто.ру не раскрыта"
+revenue_classifieds,,2024,34.091,bn_rub,ydex_ifrs_fy2024,28,"выручка прежнего сегмента «Сервисы объявлений» (Авто.ру, Недвижимость, Аренда, Путешествия, Услуги); выручка самого Авто.ру не раскрыта"
+revenue_classifieds,,2023,24.175,bn_rub,ydex_ifrs_fy2024,28,"выручка прежнего сегмента «Сервисы объявлений» (Авто.ру, Недвижимость, Аренда, Путешествия, Услуги); выручка самого Авто.ру не раскрыта"
+shares_issued,,2026H1,396.907079,mln_shares,ydex_ifrs_6m2026,29,размещённые обыкновенные акции на 30.06.2026
+shares_admin,,2026H1,16.021827,mln_shares,ydex_ifrs_6m2026,29,акции у администраторов программы мотивации (собственные) на 30.06.2026
+shares_outstanding,,2026H1,380.885255,mln_shares,ydex_ifrs_6m2026,29,обыкновенные акции в обращении на 30.06.2026 (без акций администраторов)
+shares_issued,,2025H2,394.967916,mln_shares,ydex_ifrs_6m2026,29,размещённые обыкновенные акции на 31.12.2025
+shares_admin,,2025H2,14.184373,mln_shares,ydex_ifrs_6m2026,29,акции у администраторов программы мотивации на 31.12.2025
+shares_outstanding,,2025H2,380.783546,mln_shares,ydex_ifrs_6m2026,29,обыкновенные акции в обращении на 31.12.2025
+options_outstanding,,2026H1,34.940515,mln_shares,ydex_ifrs_6m2026,14,неисполненные опционы компании на 30.06.2026
+options_exercisable,,2026H1,13.297182,mln_shares,ydex_ifrs_6m2026,14,"опционы, подлежащие исполнению на 30.06.2026 (права перешли)"
+options_outstanding,,2025H2,35.521117,mln_shares,ydex_ifrs_fy2025,29,неисполненные опционы на 31.12.2025
+options_exercisable,,2025H2,11.248873,mln_shares,ydex_ifrs_fy2025,29,подлежащие исполнению на 31.12.2025
+dividend_per_share,,2025,110,rub,ydex_ifrs_6m2026,30,"дивиденд за 2025 г., объявлен и выплачен во 2К2026"
+dividend_total,,2025,42.002,bn_rub,ydex_ifrs_6m2026,30,"сумма дивиденда за 2025 г., выплачена во 2К2026"
+dividend_per_share,,2026H1,110,rub,ydex_div_rec_2026h1,1,"дивиденд за 1П2026; отсечка 21.09.2026 (предложена СД 31.07.2026; решение ВОСА 09.09.2026 — ПР 3К26, стр. 3)"
+andebt_debt,,2025H2,269.7,bn_rub,ydex_pr_4q25,21,сверка скорр. чистого долга: общий долг
+andebt_lease,,2025H2,28.3,bn_rub,ydex_pr_4q25,21,сверка скорр. чистого долга: аренда автомобилей с выкупом и складов сроком > 11 лет
+andebt_cash,,2025H2,250.2,bn_rub,ydex_pr_4q25,21,сверка скорр. чистого долга: деньги и краткосрочные депозиты (со знаком плюс)
+adj_net_debt,,2025H2,47.7,bn_rub,ydex_pr_4q25,21,сверка скорр. чистого долга: скорр. чистый долг компании (с деньгами банка)
+andebt_debt,,2026H1,277.3,bn_rub,ydex_pr_2q26,19,сверка скорр. чистого долга: общий долг
+andebt_lease,,2026H1,25.7,bn_rub,ydex_pr_2q26,19,сверка скорр. чистого долга: аренда автомобилей с выкупом и складов сроком > 11 лет
+andebt_cash,,2026H1,296,bn_rub,ydex_pr_2q26,19,сверка скорр. чистого долга: деньги и краткосрочные депозиты (со знаком плюс)
+adj_net_debt,,2026H1,7,bn_rub,ydex_pr_2q26,19,сверка скорр. чистого долга: скорр. чистый долг компании (с деньгами банка)
+gtv,ridetech,2024Q1,322.1,bn_rub,ydex_pr_1q25,2,"GTV (валовой оборот); в релизе 2025 г. — «валовая стоимость заказов (GMV)», определение Райдтеха не менялось (сумма 1П24 = 9М24 − 3К24 из ПР 3К25)"
+gtv,ridetech,2024Q2,350,bn_rub,ydex_pr_2q25,6,"GTV (валовой оборот); в релизе 2025 г. — «валовая стоимость заказов (GMV)», определение Райдтеха не менялось (сумма 1П24 = 9М24 − 3К24 из ПР 3К25)"
+gtv,ridetech,2024Q3,380.7,bn_rub,ydex_pr_3q25,9,GTV (валовой оборот)
+gtv,ecom,2024Q3,246.7,bn_rub,ydex_pr_3q25,9,GTV (валовой оборот)
+gtv,delivery,2024Q3,41.4,bn_rub,ydex_pr_3q25,9,GTV (валовой оборот)
+gtv,ridetech,2024Q4,412.2,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ecom,2024Q4,315.5,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,delivery,2024Q4,52.6,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ridetech,2024,1465.1,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ecom,2024,999.9,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,delivery,2024,165.8,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ridetech,2025Q1,374.5,bn_rub,ydex_pr_1q26,7,GTV (валовой оборот)
+gtv,ecom,2025Q1,291,bn_rub,ydex_pr_1q26,7,GTV (валовой оборот)
+gtv,delivery,2025Q1,46.5,bn_rub,ydex_pr_1q26,7,GTV (валовой оборот)
+gtv,ridetech,2025Q2,398.1,bn_rub,ydex_pr_2q26,6,GTV (валовой оборот)
+gtv,ecom,2025Q2,288.9,bn_rub,ydex_pr_2q26,6,GTV (валовой оборот)
+gtv,delivery,2025Q2,48.2,bn_rub,ydex_pr_2q26,6,GTV (валовой оборот)
+gtv,ridetech,2025Q3,419.9,bn_rub,ydex_pr_3q25,9,GTV (валовой оборот)
+gtv,ecom,2025Q3,287.7,bn_rub,ydex_pr_3q25,9,GTV (валовой оборот)
+gtv,delivery,2025Q3,51.8,bn_rub,ydex_pr_3q25,9,GTV (валовой оборот)
+gtv,ridetech,2025Q4,440.8,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ecom,2025Q4,343.4,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,delivery,2025Q4,63.1,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ridetech,2025,1633.4,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ecom,2025,1211,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,delivery,2025,209.6,bn_rub,ydex_pr_4q25,7,GTV (валовой оборот)
+gtv,ridetech,2026Q1,416.1,bn_rub,ydex_pr_1q26,7,GTV (валовой оборот)
+gtv,ecom,2026Q1,293.8,bn_rub,ydex_pr_1q26,7,GTV (валовой оборот)
+gtv,delivery,2026Q1,60.6,bn_rub,ydex_pr_1q26,7,GTV (валовой оборот)
+gtv,ridetech,2026Q2,439.3,bn_rub,ydex_pr_2q26,6,GTV (валовой оборот)
+gtv,ecom,2026Q2,295.7,bn_rub,ydex_pr_2q26,6,GTV (валовой оборот)
+gtv,delivery,2026Q2,58.3,bn_rub,ydex_pr_2q26,6,GTV (валовой оборот)
+f101_301,,2025H2,51.724125,bn_rub,cbr_f101_2026-01-01,"актив, сч. 301, исходящий остаток итого",корсчета (сч. 301); на 01.01.2026
+f101_302,,2025H2,6.316598,bn_rub,cbr_f101_2026-01-01,"актив, сч. 302, исходящий остаток итого","расчёты, в т.ч. обязательные резервы (сч. 302); на 01.01.2026"
+f101_319,,2025H2,0,bn_rub,cbr_f101_2026-01-01,"актив, сч. 319: строки нет",депозиты в Банке России (сч. 319); счёта в форме нет — остаток 0
+f101_321,,2025H2,75.116,bn_rub,cbr_f101_2026-01-01,"актив, сч. 32.1, исходящий остаток итого","межбанковские кредиты и депозиты (сч. 32.1), до резерва; на 01.01.2026"
+f101_322,,2025H2,31.747192,bn_rub,cbr_f101_2026-01-01,"актив, сч. 32.2, исходящий остаток итого",прочие размещённые средства (сч. 32.2); на 01.01.2026
+f101_501,,2025H2,40.199274,bn_rub,cbr_f101_2026-01-01,"актив, сч. 501, исходящий остаток итого",долговые ценные бумаги (сч. 501); на 01.01.2026
+f101_reserve_321,,2025H2,0.88564,bn_rub,cbr_f101_2026-01-01,"пассив, сч. 32.1, исходящий остаток итого",резерв на возможные потери по сч. 32.1 (пассив); на 01.01.2026
+bank_capital_f123,,2025H2,36.766975,bn_rub,cbr_f123_2026-01-01,стр. 000,собственные средства (капитал) АО «Яндекс Банк» по ф.123 на 01.01.2026
+f101_301,,2026H1,55.138006,bn_rub,cbr_f101_2026-07-01,"актив, сч. 301, исходящий остаток итого",корсчета (сч. 301); на 01.07.2026
+f101_302,,2026H1,9.311759,bn_rub,cbr_f101_2026-07-01,"актив, сч. 302, исходящий остаток итого","расчёты, в т.ч. обязательные резервы (сч. 302); на 01.07.2026"
+f101_319,,2026H1,0,bn_rub,cbr_f101_2026-07-01,"актив, сч. 319, исходящий остаток итого",депозиты в Банке России (сч. 319); на 01.07.2026
+f101_321,,2026H1,135.239747,bn_rub,cbr_f101_2026-07-01,"актив, сч. 32.1, исходящий остаток итого","межбанковские кредиты и депозиты (сч. 32.1), до резерва; на 01.07.2026"
+f101_322,,2026H1,0.000505,bn_rub,cbr_f101_2026-07-01,"актив, сч. 32.2, исходящий остаток итого",прочие размещённые средства (сч. 32.2); на 01.07.2026
+f101_501,,2026H1,46.934692,bn_rub,cbr_f101_2026-07-01,"актив, сч. 501, исходящий остаток итого",долговые ценные бумаги (сч. 501); на 01.07.2026
+f101_reserve_321,,2026H1,0.944736,bn_rub,cbr_f101_2026-07-01,"пассив, сч. 32.1, исходящий остаток итого",резерв на возможные потери по сч. 32.1 (пассив); на 01.07.2026
+bank_capital_f123,,2026H1,49.975449,bn_rub,cbr_f123_2026-07-01,стр. 000,собственные средства (капитал) АО «Яндекс Банк» по ф.123 на 01.07.2026
+interest_expense,,2023Q1,2.689,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2023Q2,3.36,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2023Q3,5.049,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2023Q4,5.431,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2024Q1,7.949,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2024Q2,7.905,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2024Q3,7.906,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2024Q4,11.528,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2025Q1,16.278,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2025Q2,16.152,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2025Q3,15.097,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2025Q4,15.199,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2026Q1,12.699,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2026Q2,12.782,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2023,16.529,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2024,35.288,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_expense,,2025,62.726,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G15,финансовые процентные расходы (с процентами по аренде) — сверка скорр. EBITDA
+interest_income,,2023Q1,1.521,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2023Q2,1.476,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2023Q3,1.761,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2023Q4,2.097,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2024Q1,1.968,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2024Q2,2.218,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2024Q3,2.677,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2024Q4,4.516,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2025Q1,5.991,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2025Q2,3.64,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2025Q3,2.701,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2025Q4,3.224,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2026Q1,3.305,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2026Q2,2.586,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2023,6.855,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2024,11.379,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+interest_income,,2025,15.556,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G14,процентные доходы (на деньги группы) — сверка скорр. EBITDA; знак снят
+lease_interest,,2023Q1,1.152,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!I51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2023Q2,1.196,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!J51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2023Q3,1.412,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!K51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2023Q4,1.714,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!L51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2024Q1,2.013,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!M51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2024Q2,2.24,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!N51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2024Q3,2.553,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!O51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2024Q4,3.216,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!P51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2025Q1,3.646,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!Q51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2025Q2,3.852,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!R51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2025Q3,3.886,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!S51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2025Q4,4.084,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!T51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2026Q1,4.338,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!U51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2026Q2,4.358,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!V51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2023,5.474,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!C51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2024,10.022,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!E51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+lease_interest,,2025,15.468,bn_rub,ydex_databook_2026q3,Соотношение МСФО показателей!G51,процентные расходы по обязательствам по аренде (все договоры) — сверка скорр. NOPAT; знак снят
+bs_debt_nc,,2023H2,49.438,bn_rub,ydex_databook_2026q3,ОФП!C29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2023H2,91.434,bn_rub,ydex_databook_2026q3,ОФП!C36,"долговые обязательства краткосрочные, на конец периода"
+bs_debt_nc,,2024H1,60.121,bn_rub,ydex_databook_2026q3,ОФП!E29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2024H1,84.741,bn_rub,ydex_databook_2026q3,ОФП!E36,"долговые обязательства краткосрочные, на конец периода"
+bs_debt_nc,,2024Q3,104.406,bn_rub,ydex_databook_2026q3,ОФП!G29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2024Q3,89.574,bn_rub,ydex_databook_2026q3,ОФП!G36,"долговые обязательства краткосрочные, на конец периода"
+bs_debt_nc,,2024H2,99.114,bn_rub,ydex_databook_2026q3,ОФП!I29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2024H2,160.943,bn_rub,ydex_databook_2026q3,ОФП!I36,"долговые обязательства краткосрочные, на конец периода"
+bs_debt_nc,,2025Q1,90.815,bn_rub,ydex_databook_2026q3,ОФП!K29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2025Q1,164.719,bn_rub,ydex_databook_2026q3,ОФП!K36,"долговые обязательства краткосрочные, на конец периода"
+bs_debt_nc,,2025H1,122.519,bn_rub,ydex_databook_2026q3,ОФП!M29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2025H1,127.249,bn_rub,ydex_databook_2026q3,ОФП!M36,"долговые обязательства краткосрочные, на конец периода"
+bs_debt_nc,,2025Q3,129.218,bn_rub,ydex_databook_2026q3,ОФП!O29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2025Q3,126.682,bn_rub,ydex_databook_2026q3,ОФП!O36,"долговые обязательства краткосрочные, на конец периода"
+bs_debt_nc,,2026Q1,184.09,bn_rub,ydex_databook_2026q3,ОФП!S29,"долговые обязательства долгосрочные, на конец периода"
+bs_debt_c,,2026Q1,65.882,bn_rub,ydex_databook_2026q3,ОФП!S36,"долговые обязательства краткосрочные, на конец периода"
+key_rate_avg,,2025H1,20.8785,pct,cbr_keyrate_2025-2026,"таблица «Дата — Ставка», 01.01.2025–30.06.2025",расчёт: средняя ключевая ставка по календарным дням периода (ставка дня — ставка последней даты таблицы не позже дня; 01–02.01.2025 — ставка первой строки 03.01.2025)
+key_rate_avg,,2025H2,17.5,pct,cbr_keyrate_2025-2026,"таблица «Дата — Ставка», 01.07.2025–31.12.2025",расчёт: средняя ключевая ставка по календарным дням периода (ставка дня — ставка последней даты таблицы не позже дня; 01–02.01.2025 — ставка первой строки 03.01.2025)
+key_rate_avg,,2026H1,15.1588,pct,cbr_keyrate_2025-2026,"таблица «Дата — Ставка», 01.01.2026–30.06.2026",расчёт: средняя ключевая ставка по календарным дням периода (ставка дня — ставка последней даты таблицы не позже дня; 01–02.01.2025 — ставка первой строки 03.01.2025)
+cpi_yoy,,2024Q1,7.6024,pct,rosstat_ipc_mes_2026-09,01!AH6:AI17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2024Q2,8.2296,pct,rosstat_ipc_mes_2026-09,01!AH6:AI17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2024Q3,8.9276,pct,rosstat_ipc_mes_2026-09,01!AH6:AI17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2024Q4,8.9769,pct,rosstat_ipc_mes_2026-09,01!AH6:AI17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2025Q1,10.1058,pct,rosstat_ipc_mes_2026-09,01!AH6:AJ17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2025Q2,9.8444,pct,rosstat_ipc_mes_2026-09,01!AH6:AJ17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2025Q3,8.3109,pct,rosstat_ipc_mes_2026-09,01!AH6:AJ17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2025Q4,6.6505,pct,rosstat_ipc_mes_2026-09,01!AH6:AJ17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2026Q1,5.9337,pct,rosstat_ipc_mes_2026-09,01!AH6:AK17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2026Q2,5.6496,pct,rosstat_ipc_mes_2026-09,01!AH6:AK17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2024H1,7.9177,pct,rosstat_ipc_mes_2026-09,01!AH6:AI17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2024H2,8.9526,pct,rosstat_ipc_mes_2026-09,01!AH6:AI17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2025H1,9.974,pct,rosstat_ipc_mes_2026-09,01!AH6:AJ17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2025H2,7.4702,pct,rosstat_ipc_mes_2026-09,01!AH6:AJ17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy,,2026H1,5.7906,pct,rosstat_ipc_mes_2026-09,01!AH6:AK17,"расчёт: средний индекс периода к среднему индексу того же периода годом раньше, цепь месячных индексов «к концу предыдущего месяца» с 01.2023 (лист 01, столбцы AH–AK, строки 6–17); решение ведущего, WORK.md раздел 4"
+cpi_yoy_rosstat,,2024Q1,7.61,pct,rosstat_ipc_kv_2026q3,01!D104,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2024Q2,8.25,pct,rosstat_ipc_kv_2026q3,01!D105,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2024Q3,8.94,pct,rosstat_ipc_kv_2026q3,01!D106,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2024Q4,8.98,pct,rosstat_ipc_kv_2026q3,01!D107,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2025Q1,10.11,pct,rosstat_ipc_kv_2026q3,01!D109,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2025Q2,9.83,pct,rosstat_ipc_kv_2026q3,01!D110,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2025Q3,8.3,pct,rosstat_ipc_kv_2026q3,01!D111,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2025Q4,6.64,pct,rosstat_ipc_kv_2026q3,01!D112,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2026Q1,5.92,pct,rosstat_ipc_kv_2026q3,01!D114,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+cpi_yoy_rosstat,,2026Q2,5.64,pct,rosstat_ipc_kv_2026q3,01!D115,ИПЦ «квартал к соответствующему кварталу предыдущего года» Росстата минус 100 — сверка расчёта cpi_yoy
+ad_market_internet_yoy,akar,2026Q1,8,pct,ydex_issuer_report_6m2026,11,"чужая оценка АКАР (интернет-сервисы, 117–118 млрд руб., +8 % г/г) в отчёте эмитента — цитата, не раскрытие"
+ad_market_internet_yoy,arir,2026H1,11,pct,ydex_issuer_report_6m2026,11,"чужая оценка АРИР (традиционные сегменты интернета, 301 млрд руб., +11 % г/г) в отчёте эмитента — цитата, не раскрытие"
+autoru_consideration,,2026H1,35,bn_rub,ydex_ifrs_6m2026,13,вознаграждение за 100 % Авто.ру (продажа 02.06.2026)
+autoru_cash_received,,2026H1,31.5,bn_rub,ydex_ifrs_6m2026,13,получено из вознаграждения на 30.06.2026; в какой строке баланса остаток — не раскрыто; получен в 3К26 (disposals 2026Q3)
+onca_loans_employees,,2026H1,12.436,bn_rub,ydex_ifrs_6m2026,17,"прочие внеоборотные активы: займы, выданные сотрудникам; на 30.06.2026"
+onca_loans_employees,,2025H2,10.44,bn_rub,ydex_ifrs_6m2026,17,"прочие внеоборотные активы: займы, выданные сотрудникам; на 31.12.2025"
+onca_loans_related,,2026H1,1.616,bn_rub,ydex_ifrs_6m2026,17,"прочие внеоборотные активы: займы, выданные связанным сторонам; на 30.06.2026"
+onca_loans_related,,2025H2,1.474,bn_rub,ydex_ifrs_6m2026,17,"прочие внеоборотные активы: займы, выданные связанным сторонам; на 31.12.2025"
+onca_loans_third,,2026H1,1.42,bn_rub,ydex_ifrs_6m2026,17,"прочие внеоборотные активы: займы, выданные третьим сторонам; на 30.06.2026"
+onca_loans_third,,2025H2,1.943,bn_rub,ydex_ifrs_6m2026,17,"прочие внеоборотные активы: займы, выданные третьим сторонам; на 31.12.2025"
+content_additions,,2024,26.3,bn_rub,ydex_ifrs_fy2025,40,поступления контентных активов (деньги — в операционной деятельности)
+content_amortization,,2024,-13.825,bn_rub,ydex_ifrs_fy2025,40,"амортизация контента (со знаком документа) — в операционных расходах на контент, внутри скорр. EBITDA (МСФО 2025, стр. 22)"
+content_additions,,2025,28.929,bn_rub,ydex_ifrs_fy2025,40,поступления контентных активов (деньги — в операционной деятельности)
+content_amortization,,2025,-17.93,bn_rub,ydex_ifrs_fy2025,40,"амортизация контента (со знаком документа) — в операционных расходах на контент, внутри скорр. EBITDA (МСФО 2025, стр. 22)"
+content_additions,,2024H1,10.375,bn_rub,ydex_ifrs_6m2025,24,поступления контентных активов (деньги — в операционной деятельности)
+content_amortization,,2024H1,-6.394,bn_rub,ydex_ifrs_6m2025,24,"амортизация контента (со знаком документа) — в операционных расходах на контент, внутри скорр. EBITDA (МСФО 2025, стр. 22)"
+content_additions,,2025H1,13.797,bn_rub,ydex_ifrs_6m2026,23,поступления контентных активов (деньги — в операционной деятельности)
+content_amortization,,2025H1,-8.323,bn_rub,ydex_ifrs_6m2026,23,"амортизация контента (со знаком документа) — в операционных расходах на контент, внутри скорр. EBITDA (МСФО 2025, стр. 22)"
+content_additions,,2026H1,11.821,bn_rub,ydex_ifrs_6m2026,23,поступления контентных активов (деньги — в операционной деятельности)
+content_amortization,,2026H1,-9.427,bn_rub,ydex_ifrs_6m2026,23,"амортизация контента (со знаком документа) — в операционных расходах на контент, внутри скорр. EBITDA (МСФО 2025, стр. 22)"
+ppe_gross,infra,2026H1,342.4,bn_rub,ydex_ifrs_6m2026,22,"основные средства, первоначальная стоимость на 30.06.2026: инфраструктурные системы и компоненты"
+ppe_gross,office,2026H1,28.319,bn_rub,ydex_ifrs_6m2026,22,"основные средства, первоначальная стоимость на 30.06.2026: офисная мебель и оборудование"
+ppe_gross,leasehold,2026H1,12.377,bn_rub,ydex_ifrs_6m2026,22,"основные средства, первоначальная стоимость на 30.06.2026: капитальные вложения в арендованное имущество (5 лет или срок аренды, что меньше)"
+ppe_gross,land_buildings,2026H1,16.617,bn_rub,ydex_ifrs_6m2026,22,"основные средства, первоначальная стоимость на 30.06.2026: земля и сооружения (срок — сооружений; земля не амортизируется)"
+ppe_gross,other,2026H1,28.666,bn_rub,ydex_ifrs_6m2026,22,"основные средства, первоначальная стоимость на 30.06.2026: прочее оборудование"
+ppe_gross,cip,2026H1,154.621,bn_rub,ydex_ifrs_6m2026,22,"основные средства, первоначальная стоимость на 30.06.2026: активы, не введённые в эксплуатацию, и предоплаты (не амортизируются)"
+ppe_life_min,infra,2025,3,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), нижняя граница: инфраструктурные системы и компоненты"
+ppe_life_max,infra,2025,10,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), верхняя граница: инфраструктурные системы и компоненты"
+ppe_life_min,office,2025,3,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), нижняя граница: офисная мебель и оборудование"
+ppe_life_max,office,2025,3,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), верхняя граница: офисная мебель и оборудование"
+ppe_life_min,leasehold,2025,5,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), нижняя граница: капитальные вложения в арендованное имущество (5 лет или срок аренды, что меньше)"
+ppe_life_max,leasehold,2025,5,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), верхняя граница: капитальные вложения в арендованное имущество (5 лет или срок аренды, что меньше)"
+ppe_life_min,land_buildings,2025,10,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), нижняя граница: земля и сооружения (срок — сооружений; земля не амортизируется)"
+ppe_life_max,land_buildings,2025,20,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), верхняя граница: земля и сооружения (срок — сооружений; земля не амортизируется)"
+ppe_life_min,other,2025,2,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), нижняя граница: прочее оборудование"
+ppe_life_max,other,2025,10,count,ydex_ifrs_fy2025,21,"ожидаемый срок полезного использования (лет), верхняя граница: прочее оборудование"
+ia_gross,trademarks,2025H2,13.028,bn_rub,ydex_ifrs_fy2025,39,"прочие НМА, первоначальная стоимость на 31.12.2025 (на 30.06.2026 по классам не раскрыта): торговые марки и доменные имена"
+ia_gross,customers,2025H2,16.498,bn_rub,ydex_ifrs_fy2025,39,"прочие НМА, первоначальная стоимость на 31.12.2025 (на 30.06.2026 по классам не раскрыта): клиентская база"
+ia_gross,technology,2025H2,33.683,bn_rub,ydex_ifrs_fy2025,39,"прочие НМА, первоначальная стоимость на 31.12.2025 (на 30.06.2026 по классам не раскрыта): технологии, патенты и лицензии"
+ia_gross,other,2025H2,0.238,bn_rub,ydex_ifrs_fy2025,39,"прочие НМА, первоначальная стоимость на 31.12.2025 (на 30.06.2026 по классам не раскрыта): прочие нематериальные активы"
+ia_gross,cip,2025H2,2.106,bn_rub,ydex_ifrs_fy2025,39,"прочие НМА, первоначальная стоимость на 31.12.2025 (на 30.06.2026 по классам не раскрыта): не введённые в эксплуатацию и предоплаты (не амортизируются)"
+ia_life_min,trademarks,2025,3,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), нижняя граница: торговые марки и доменные имена"
+ia_life_max,trademarks,2025,10,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), верхняя граница: торговые марки и доменные имена"
+ia_life_min,customers,2025,5,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), нижняя граница: клиентская база"
+ia_life_max,customers,2025,16,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), верхняя граница: клиентская база"
+ia_life_min,technology,2025,1,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), нижняя граница: технологии, патенты и лицензии"
+ia_life_max,technology,2025,6,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), верхняя граница: технологии, патенты и лицензии"
+ia_life_min,other,2025,5,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), нижняя граница: прочие нематериальные активы"
+ia_life_max,other,2025,5,count,ydex_ifrs_fy2025,22,"ожидаемый срок полезного использования (лет), верхняя граница: прочие нематериальные активы"
+shares_outstanding,,2023H2,379.453797,mln_shares,ydex_ifrs_fy2024,50,акции в обращении на 01.01.2024 (обыкновенные 379 453 795 + 2 привилегированные)
+shares_outstanding,,2024H2,373.391901,mln_shares,ydex_ifrs_fy2024,50,"акции в обращении на 31.12.2024 (размещено 390 548 277, собственные 17 156 379)"
+onca_net_lease_investment,,2026H1,0.974,bn_rub,ydex_ifrs_6m2026,17,прочие внеоборотные активы: чистые инвестиции в аренду; на 30.06.2026
+onca_net_lease_investment,,2025H2,2.003,bn_rub,ydex_ifrs_6m2026,17,прочие внеоборотные активы: чистые инвестиции в аренду; на 31.12.2025
+fin_assets_purchased,,2026Q1,0,bn_rub,ydex_databook_2026q3,ОДДС!AD12,"вложения в прочие финансовые активы, знак ОДДС"
+fin_assets_purchased,,2026Q2,-30,bn_rub,ydex_databook_2026q3,ОДДС!AE12,"вложения в прочие финансовые активы, знак ОДДС"
+fin_assets_disposed,,2026Q1,0,bn_rub,ydex_databook_2026q3,ОДДС!AD13,"поступления от выбытия прочих финансовых активов, знак ОДДС"
+fin_assets_disposed,,2026Q2,30,bn_rub,ydex_databook_2026q3,ОДДС!AE13,"поступления от выбытия прочих финансовых активов, знак ОДДС"
+loans_issued,,2026Q1,-0.367,bn_rub,ydex_databook_2026q3,ОДДС!AD10,"займы выданные, знак ОДДС"
+loans_issued,,2026Q2,-0.268,bn_rub,ydex_databook_2026q3,ОДДС!AE10,"займы выданные, знак ОДДС"
+loans_repaid,,2026Q1,1.242,bn_rub,ydex_databook_2026q3,ОДДС!AD11,"погашение займов выданных, знак ОДДС"
+loans_repaid,,2026Q2,0.139,bn_rub,ydex_databook_2026q3,ОДДС!AE11,"погашение займов выданных, знак ОДДС"
+fx_cash,,2026Q1,0.667,bn_rub,ydex_databook_2026q3,ОДДС!AD30,"влияние изменений обменного курса на денежные средства, знак ОДДС"
+fx_cash,,2026Q2,-2.05,bn_rub,ydex_databook_2026q3,ОДДС!AE30,"влияние изменений обменного курса на денежные средства, знак ОДДС"

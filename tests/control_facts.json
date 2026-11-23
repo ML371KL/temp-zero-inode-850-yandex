@@ -1,0 +1,35 @@
+{
+ "about": "Факты второго счёта для правил книги 1.3, которых нет в листе фактов 1ea268e. Сняты вторым счётом с первички (задача 850-YDEX-402), а не из правки ядра. Лист фактов главнее: если строка там есть, второй счёт берёт её, а эта — для сверки. Единицы — млрд руб.; движение денег — величины без знака, как dividends_paid и disposals листа.",
+ "balance": {
+  "2026-06-30": {
+   "onca_net_lease_investment": {"v": 0.974, "src": {"doc_id": "ydex_ifrs_6m2026", "page": "17", "note": "прочие внеоборотные активы: долгосрочные чистые инвестиции в аренду (решение Г8; out/p3-decisions.md)"}}
+  }
+ },
+ "cash_2026": {
+  "loans_issued": {
+   "2026Q1": {"v": 0.367, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AD10"}},
+   "2026Q2": {"v": 0.268, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AE10"}},
+   "2026Q3": {"v": 0.002, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AG10"}}
+  },
+  "loans_repaid": {
+   "2026Q1": {"v": 1.242, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AD11"}},
+   "2026Q2": {"v": 0.139, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AE11"}},
+   "2026Q3": {"v": 0.180, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AG11"}}
+  },
+  "fin_assets_invested": {
+   "2026Q1": {"v": 0.0, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AD12"}},
+   "2026Q2": {"v": 30.0, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AE12"}},
+   "2026Q3": {"v": 10.0, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AG12"}}
+  },
+  "fin_assets_disposed": {
+   "2026Q1": {"v": 0.0, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AD13"}},
+   "2026Q2": {"v": 30.0, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AE13"}},
+   "2026Q3": {"v": 20.053, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AG13"}}
+  },
+  "fx_on_cash": {
+   "2026Q1": {"v": 0.667, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AD30", "note": "со знаком: + увеличило деньги"}},
+   "2026Q2": {"v": -2.050, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AE30"}},
+   "2026Q3": {"v": 2.608, "src": {"doc_id": "ydex_databook_2026q3", "page": "ОДДС!AG30"}}
+  }
+ }
+}

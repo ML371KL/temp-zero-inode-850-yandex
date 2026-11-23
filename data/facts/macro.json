@@ -1,0 +1,250 @@
+{
+ "unit": "pct",
+ "cpi_yoy": {
+  "2024Q1": {
+   "v": 7.6024,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AI17"
+   }
+  },
+  "2024Q2": {
+   "v": 8.2296,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AI17"
+   }
+  },
+  "2024Q3": {
+   "v": 8.9276,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AI17"
+   }
+  },
+  "2024Q4": {
+   "v": 8.9769,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AI17"
+   }
+  },
+  "2025Q1": {
+   "v": 10.1058,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AJ17"
+   }
+  },
+  "2025Q2": {
+   "v": 9.8444,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AJ17"
+   }
+  },
+  "2025Q3": {
+   "v": 8.3109,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AJ17"
+   }
+  },
+  "2025Q4": {
+   "v": 6.6505,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AJ17"
+   }
+  },
+  "2026Q1": {
+   "v": 5.9337,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AK17"
+   }
+  },
+  "2026Q2": {
+   "v": 5.6496,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AK17"
+   }
+  },
+  "2026Q3": {
+   "v": 6.2264,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AK17"
+   }
+  },
+  "2024H1": {
+   "v": 7.9177,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AI17"
+   }
+  },
+  "2024H2": {
+   "v": 8.9526,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AI17"
+   }
+  },
+  "2025H1": {
+   "v": 9.974,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AJ17"
+   }
+  },
+  "2025H2": {
+   "v": 7.4702,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AJ17"
+   }
+  },
+  "2026H1": {
+   "v": 5.7906,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AH6:AK17"
+   }
+  },
+  "12m_2026Q3": {
+   "v": 6.1096,
+   "src": {
+    "doc_id": "rosstat_ipc_mes_2026-09",
+    "page": "01!AI6:AK17"
+   }
+  }
+ },
+ "cpi_yoy_rosstat": {
+  "2024Q1": {
+   "v": 7.61,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D104"
+   }
+  },
+  "2024Q2": {
+   "v": 8.25,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D105"
+   }
+  },
+  "2024Q3": {
+   "v": 8.94,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D106"
+   }
+  },
+  "2024Q4": {
+   "v": 8.98,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D107"
+   }
+  },
+  "2025Q1": {
+   "v": 10.11,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D109"
+   }
+  },
+  "2025Q2": {
+   "v": 9.83,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D110"
+   }
+  },
+  "2025Q3": {
+   "v": 8.3,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D111"
+   }
+  },
+  "2025Q4": {
+   "v": 6.64,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D112"
+   }
+  },
+  "2026Q1": {
+   "v": 5.92,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D114"
+   }
+  },
+  "2026Q2": {
+   "v": 5.64,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D115"
+   }
+  },
+  "2026Q3": {
+   "v": 6.22,
+   "src": {
+    "doc_id": "rosstat_ipc_kv_2026q3",
+    "page": "01!D116"
+   }
+  }
+ },
+ "key_rate_avg": {
+  "2025H1": {
+   "v": 20.8785,
+   "src": {
+    "doc_id": "cbr_keyrate_2025-2026",
+    "page": "таблица «Дата — Ставка», 01.01.2025–30.06.2025"
+   }
+  },
+  "2025H2": {
+   "v": 17.5,
+   "src": {
+    "doc_id": "cbr_keyrate_2025-2026",
+    "page": "таблица «Дата — Ставка», 01.07.2025–31.12.2025"
+   }
+  },
+  "2026H1": {
+   "v": 15.1588,
+   "src": {
+    "doc_id": "cbr_keyrate_2025-2026",
+    "page": "таблица «Дата — Ставка», 01.01.2026–30.06.2026"
+   }
+  },
+  "2026Q3": {
+   "v": 14.0707,
+   "src": {
+    "doc_id": "cbr_keyrate_2025-2026",
+    "page": "таблица «Дата — Ставка», 01.07.2026–30.09.2026"
+   }
+  }
+ },
+ "ad_market_internet_yoy": {
+  "akar_2026Q1": {
+   "v": 8,
+   "src": {
+    "doc_id": "ydex_issuer_report_6m2026",
+    "page": "11"
+   }
+  },
+  "arir_2026H1": {
+   "v": 11,
+   "src": {
+    "doc_id": "ydex_issuer_report_6m2026",
+    "page": "11"
+   }
+  },
+  "note": "чужие оценки в цитате эмитента, не раскрытие"
+ }
+}

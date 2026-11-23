@@ -1,0 +1,65 @@
+{
+ "cbr/key_rate_soap.xml": {
+  "url": "https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx",
+  "fetched_at": "2026-09-28T10:00:14+00:00",
+  "sha256": "837cb11710e6a1562db6141f89e25b04dfb19008277bc3c49446590f5340978f",
+  "bytes": 26543,
+  "status": 200,
+  "post_body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n <soap:Body><KeyRate xmlns=\"http://web.cbr.ru/\">\n  <fromDate>2025-09-27T00:00:00</fromDate>\n  <ToDate>2026-09-28T00:00:00</ToDate>\n </KeyRate></soap:Body></soap:Envelope>"
+ },
+ "cbr/key_rate_page.html": {
+  "url": "https://www.cbr.ru/hd_base/KeyRate/?UniDbQuery.Posted=True&UniDbQuery.From=27.09.2025&UniDbQuery.To=28.09.2026",
+  "fetched_at": "2026-09-28T10:00:15+00:00",
+  "sha256": "57d656ecc508d765379aaa786ee7d2c9eeb2020bff7ff5ac3e4a8f39d7503714",
+  "bytes": 57063,
+  "status": 200
+ },
+ "iss/quotes_tqbr.json": {
+  "url": "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities.json?iss.meta=off&iss.only=securities,marketdata&securities=YDEX&securities.columns=SECID,SHORTNAME,ISIN,PREVPRICE,PREVLEGALCLOSEPRICE,PREVDATE&marketdata.columns=SECID,LAST,TIME,UPDATETIME,SYSTIME,TRADINGSTATUS",
+  "fetched_at": "2026-11-23T17:57:38+00:00",
+  "sha256": "bc671a3f755f603ea4de1e844d642a0deb2f077c8a629252df1d98088fd8ad4d",
+  "bytes": 383,
+  "status": 200,
+  "note": "живой прогон задачи 16 (23.11.2026, 20:57 МСК)"
+ },
+ "iss/history_YDEX_0.json": {
+  "url": "https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/YDEX.json?iss.meta=off&from=2025-11-23&till=2026-11-23&start=0&history.columns=TRADEDATE,LEGALCLOSEPRICE,CLOSE,VOLUME",
+  "fetched_at": "2026-11-23T17:57:39+00:00",
+  "sha256": "e52ff958669dd1909581ca1b69f1f260a92b1519567b9c2f8654d6e7d6ae459c",
+  "bytes": 4139,
+  "status": 200,
+  "note": "живой прогон задачи 16 (23.11.2026, 20:57 МСК)"
+ },
+ "iss/history_YDEX_100.json": {
+  "url": "https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/YDEX.json?iss.meta=off&from=2025-11-23&till=2026-11-23&start=100&history.columns=TRADEDATE,LEGALCLOSEPRICE,CLOSE,VOLUME",
+  "fetched_at": "2026-11-23T17:57:40+00:00",
+  "sha256": "587c8497db482323f1dca2e0c166eea66ce90876039def7dc0392a47903207ab",
+  "bytes": 4194,
+  "status": 200,
+  "note": "живой прогон задачи 16 (23.11.2026, 20:57 МСК)"
+ },
+ "iss/history_YDEX_200.json": {
+  "url": "https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/YDEX.json?iss.meta=off&from=2025-11-23&till=2026-11-23&start=200&history.columns=TRADEDATE,LEGALCLOSEPRICE,CLOSE,VOLUME",
+  "fetched_at": "2026-11-23T17:57:41+00:00",
+  "sha256": "c448d57f8d68071649c7bdcdb577c1f87701048bf37961ac403fc3465d0b4b40",
+  "bytes": 2290,
+  "status": 200,
+  "note": "живой прогон задачи 16 (23.11.2026, 20:57 МСК)"
+ },
+ "iss/zcyc.json": {
+  "url": "https://iss.moex.com/iss/engines/stock/zcyc.json?iss.meta=off&iss.only=params,yearyields",
+  "fetched_at": "2026-11-23T17:57:42+00:00",
+  "sha256": "c35f0a9b81a6ff532dbe65f48c55b6c62ea42e55106c396deabbda5786158c6e",
+  "bytes": 911,
+  "status": 200,
+  "note": "живой прогон задачи 16 (23.11.2026, 20:57 МСК)"
+ },
+ "cbr/key_rate_soap_2026-11-23.xml": {
+  "url": "https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx",
+  "fetched_at": "2026-11-23T17:57:43+00:00",
+  "sha256": "2258c0b232e649008a8ea507e9d9a8de6f80b91dbe6f46f9fde7f9977b00a778",
+  "bytes": 26442,
+  "status": 200,
+  "note": "живой прогон задачи 16 (23.11.2026, 20:57 МСК); тело запроса — как у key_rate_soap.xml, период 2025-11-23 — 2026-11-23"
+ }
+}

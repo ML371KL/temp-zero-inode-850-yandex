@@ -1,0 +1,1733 @@
+{
+ "unit": "bn_rub",
+ "source": "30.06.2026 и 31.12.2025 — МСФО 6М2026, стр. 4, 14, 17, 18; 30.09.2026 — датабук, лист ОФП; офисная аренда — сноска ОФП; банк — ф.101, ф.123; скорр. чистый долг — пресс-релизы",
+ "2025-12-31": {
+  "bs_ppe": {
+   "v": 331.165,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_goodwill": {
+   "v": 159.774,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_rou": {
+   "v": 92.336,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_content_assets": {
+   "v": 48.092,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_intangibles_other": {
+   "v": 27.372,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_dta": {
+   "v": 29.886,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_loans_customers_nc": {
+   "v": 26.068,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_securities_nc": {
+   "v": 24.811,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_nc_assets": {
+   "v": 39.642,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_inventories": {
+   "v": 33.188,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_trade_receivables": {
+   "v": 95.515,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_advances_paid": {
+   "v": 22.991,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_vat_receivable": {
+   "v": 32.5,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_loans_customers_c": {
+   "v": 91.409,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_securities_c": {
+   "v": 15.205,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_unsettled_receivables": {
+   "v": 10.041,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_cash": {
+   "v": 250.21,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_c_assets": {
+   "v": 38.137,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_total_assets": {
+   "v": 1368.342,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_equity": {
+   "v": 351.216,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_nc": {
+   "v": 179.621,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_lease_nc": {
+   "v": 72.203,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_dtl": {
+   "v": 15.976,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_fs_liabilities_nc": {
+   "v": 17.775,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_nc_liabilities": {
+   "v": 8.982,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_payables": {
+   "v": 210.42,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_c": {
+   "v": 90.051,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_fs_liabilities_c": {
+   "v": 249.695,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_income_tax_payable": {
+   "v": 17.314,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_taxes_payable": {
+   "v": 49.308,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_contract_liabilities": {
+   "v": 39.907,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_provisions": {
+   "v": 47.534,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_lease_c": {
+   "v": 18.34,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "oca_other_receivables": {
+   "v": 11.261,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_fin_investments": {
+   "v": 10.07,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_income_tax_prepaid": {
+   "v": 3.194,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_net_lease_investment": {
+   "v": 2.47,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_loans_employees": {
+   "v": 1.85,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_loans_third": {
+   "v": 1.492,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_contract_assets": {
+   "v": 1.781,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_loans_related": {
+   "v": 0.193,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_other": {
+   "v": 5.826,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "pay_trade": {
+   "v": 153.043,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_supply_financing": {
+   "v": 25.874,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_payroll": {
+   "v": 10.63,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_content": {
+   "v": 8.79,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_other": {
+   "v": 12.083,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "debt_loans": {
+   "v": 155.419,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  },
+  "debt_bonds": {
+   "v": 105.742,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  },
+  "debt_supply_financing": {
+   "v": 8.511,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  },
+  "onca_loans_employees": {
+   "v": 10.44,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "onca_loans_related": {
+   "v": 1.474,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "onca_loans_third": {
+   "v": 1.943,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "onca_net_lease_investment": {
+   "v": 2.003,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "lease_office_c": {
+   "v": 10.758426,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!Q48"
+   }
+  },
+  "lease_office_nc": {
+   "v": 51.531621,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!Q49"
+   }
+  },
+  "bank_capital_f123": {
+   "v": 36.766975,
+   "src": {
+    "doc_id": "cbr_f123_2026-01-01",
+    "page": "стр. 000"
+   }
+  },
+  "f101_301": {
+   "v": 51.724125,
+   "src": {
+    "doc_id": "cbr_f101_2026-01-01",
+    "page": "актив, сч. 301, исходящий остаток итого"
+   }
+  },
+  "f101_302": {
+   "v": 6.316598,
+   "src": {
+    "doc_id": "cbr_f101_2026-01-01",
+    "page": "актив, сч. 302, исходящий остаток итого"
+   }
+  },
+  "f101_319": {
+   "v": 0,
+   "src": {
+    "doc_id": "cbr_f101_2026-01-01",
+    "page": "актив, сч. 319: строки нет"
+   }
+  },
+  "f101_321": {
+   "v": 75.116,
+   "src": {
+    "doc_id": "cbr_f101_2026-01-01",
+    "page": "актив, сч. 32.1, исходящий остаток итого"
+   }
+  },
+  "f101_reserve_321": {
+   "v": 0.88564,
+   "src": {
+    "doc_id": "cbr_f101_2026-01-01",
+    "page": "пассив, сч. 32.1, исходящий остаток итого"
+   }
+  },
+  "f101_322": {
+   "v": 31.747192,
+   "src": {
+    "doc_id": "cbr_f101_2026-01-01",
+    "page": "актив, сч. 32.2, исходящий остаток итого"
+   }
+  },
+  "f101_501": {
+   "v": 40.199274,
+   "src": {
+    "doc_id": "cbr_f101_2026-01-01",
+    "page": "актив, сч. 501, исходящий остаток итого"
+   }
+  },
+  "andebt_debt": {
+   "v": 269.7,
+   "src": {
+    "doc_id": "ydex_pr_4q25",
+    "page": "21"
+   }
+  },
+  "andebt_lease": {
+   "v": 28.3,
+   "src": {
+    "doc_id": "ydex_pr_4q25",
+    "page": "21"
+   }
+  },
+  "andebt_cash": {
+   "v": 250.2,
+   "src": {
+    "doc_id": "ydex_pr_4q25",
+    "page": "21"
+   }
+  },
+  "adj_net_debt": {
+   "v": 47.7,
+   "src": {
+    "doc_id": "ydex_pr_4q25",
+    "page": "21"
+   }
+  },
+  "rou_premises": {
+   "v": 61.959,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2025",
+    "page": "36"
+   }
+  },
+  "rou_cars": {
+   "v": 21.475,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2025",
+    "page": "36"
+   }
+  },
+  "rou_land": {
+   "v": 8.744,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2025",
+    "page": "36"
+   }
+  },
+  "rou_other": {
+   "v": 0.158,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2025",
+    "page": "36"
+   }
+  },
+  "rou_total": {
+   "v": 92.336,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2025",
+    "page": "36"
+   }
+  },
+  "debt": {
+   "v": 269.672,
+   "calc": "bs_debt_nc + bs_debt_c"
+  },
+  "lease_total": {
+   "v": 90.543,
+   "calc": "bs_lease_nc + bs_lease_c"
+  },
+  "lease_nonoffice": {
+   "v": 28.252953,
+   "calc": "аренда всего − операционная (офисы): машины с выкупом и склады"
+  },
+  "fs_liabilities": {
+   "v": 267.47,
+   "calc": "долгоср. + краткоср."
+  },
+  "loans_customers": {
+   "v": 117.477,
+   "calc": "внеоборотные + оборотные"
+  },
+  "debt_securities": {
+   "v": 40.016,
+   "calc": "внеоборотные + оборотные"
+  },
+  "bank_money": {
+   "v": 146.743975,
+   "calc": "устав, раздел 4: обязательства ФС + капитал банка (ф.123) − кредиты клиентам − долговые бумаги"
+  },
+  "f101_liquidity": {
+   "v": 164.018275,
+   "calc": "ф.101: 301 + 302 + 319 + 32.1 − резерв 32.1 + 32.2 (сверка денег банка)"
+  },
+  "net_debt_company": {
+   "v": 47.714953,
+   "calc": "долг + аренда машин и складов − все деньги группы (скорр. чистый долг компании из строк баланса)"
+  },
+  "net_debt_nonbank": {
+   "v": 194.458928,
+   "calc": "net_debt_company + bank_money"
+  },
+  "nwc_nonbank": {
+   "v": -85.974,
+   "calc": "методика §4.10 и раздел 4 рабочего файла: запасы + торговая ДЗ + авансы выданные + НДС к возмещению + незавершённые расчёты + контентные активы + прочие оборотные активы без авансов по налогу на прибыль, чистых инвестиций в аренду, финансовых вложений и выданных займов − кредиторская задолженность (с финансированием поставок) − прочие налоги − обязательства по договорам − оценочные обязательства"
+  },
+  "bridge_fin_investments": {
+   "v": 10.07,
+   "calc": "вложения в прочие финансовые активы (актив моста)"
+  },
+  "bridge_loans_issued": {
+   "v": 3.535,
+   "calc": "займы выданные, оборотные: сотрудникам + третьим лицам + связанным (актив моста)"
+  },
+  "loans_issued_noncurrent": {
+   "v": 13.857,
+   "calc": "займы выданные, внеоборотные (в прочих внеоборотных активах; решением раздела 4 не названы)"
+  }
+ },
+ "2026-06-30": {
+  "bs_ppe": {
+   "v": 368.509,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_goodwill": {
+   "v": 153.518,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_rou": {
+   "v": 91.561,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_content_assets": {
+   "v": 50.291,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_intangibles_other": {
+   "v": 24.158,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_dta": {
+   "v": 30.996,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_loans_customers_nc": {
+   "v": 35.751,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_securities_nc": {
+   "v": 39.462,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_nc_assets": {
+   "v": 43.307,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_inventories": {
+   "v": 44.028,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_trade_receivables": {
+   "v": 90.526,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_advances_paid": {
+   "v": 27.99,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_vat_receivable": {
+   "v": 42.521,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_loans_customers_c": {
+   "v": 97.757,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_securities_c": {
+   "v": 7.472,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_unsettled_receivables": {
+   "v": 10.449,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_cash": {
+   "v": 296.024,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_c_assets": {
+   "v": 38.21,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_total_assets": {
+   "v": 1492.53,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_equity": {
+   "v": 406.268,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_nc": {
+   "v": 205.474,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_lease_nc": {
+   "v": 69.695,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_dtl": {
+   "v": 16.813,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_fs_liabilities_nc": {
+   "v": 19.299,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_nc_liabilities": {
+   "v": 8.186,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_payables": {
+   "v": 204.278,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_debt_c": {
+   "v": 71.828,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_fs_liabilities_c": {
+   "v": 314.093,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_income_tax_payable": {
+   "v": 14.073,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_other_taxes_payable": {
+   "v": 50.644,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_contract_liabilities": {
+   "v": 40.848,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_provisions": {
+   "v": 48.029,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "bs_lease_c": {
+   "v": 23.002,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "4"
+   }
+  },
+  "oca_other_receivables": {
+   "v": 12.949,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_fin_investments": {
+   "v": 10.005,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_income_tax_prepaid": {
+   "v": 4.091,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_net_lease_investment": {
+   "v": 2.466,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_loans_employees": {
+   "v": 1.8,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_loans_third": {
+   "v": 1.367,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_contract_assets": {
+   "v": 1.297,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_loans_related": {
+   "v": 0.186,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "oca_other": {
+   "v": 4.049,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "pay_trade": {
+   "v": 152.284,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_supply_financing": {
+   "v": 19.427,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_payroll": {
+   "v": 18.081,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_content": {
+   "v": 5.381,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "pay_other": {
+   "v": 9.105,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "18"
+   }
+  },
+  "debt_loans": {
+   "v": 111.256,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  },
+  "debt_bonds": {
+   "v": 166,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  },
+  "debt_supply_financing": {
+   "v": 0.046,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  },
+  "onca_loans_employees": {
+   "v": 12.436,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "onca_loans_related": {
+   "v": 1.616,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "onca_loans_third": {
+   "v": 1.42,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "onca_net_lease_investment": {
+   "v": 0.974,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "17"
+   }
+  },
+  "lease_office_c": {
+   "v": 13.760971,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!U48"
+   }
+  },
+  "lease_office_nc": {
+   "v": 53.187732,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!U49"
+   }
+  },
+  "bank_capital_f123": {
+   "v": 49.975449,
+   "src": {
+    "doc_id": "cbr_f123_2026-07-01",
+    "page": "стр. 000"
+   }
+  },
+  "f101_301": {
+   "v": 55.138006,
+   "src": {
+    "doc_id": "cbr_f101_2026-07-01",
+    "page": "актив, сч. 301, исходящий остаток итого"
+   }
+  },
+  "f101_302": {
+   "v": 9.311759,
+   "src": {
+    "doc_id": "cbr_f101_2026-07-01",
+    "page": "актив, сч. 302, исходящий остаток итого"
+   }
+  },
+  "f101_319": {
+   "v": 0,
+   "src": {
+    "doc_id": "cbr_f101_2026-07-01",
+    "page": "актив, сч. 319, исходящий остаток итого"
+   }
+  },
+  "f101_321": {
+   "v": 135.239747,
+   "src": {
+    "doc_id": "cbr_f101_2026-07-01",
+    "page": "актив, сч. 32.1, исходящий остаток итого"
+   }
+  },
+  "f101_reserve_321": {
+   "v": 0.944736,
+   "src": {
+    "doc_id": "cbr_f101_2026-07-01",
+    "page": "пассив, сч. 32.1, исходящий остаток итого"
+   }
+  },
+  "f101_322": {
+   "v": 0.000505,
+   "src": {
+    "doc_id": "cbr_f101_2026-07-01",
+    "page": "актив, сч. 32.2, исходящий остаток итого"
+   }
+  },
+  "f101_501": {
+   "v": 46.934692,
+   "src": {
+    "doc_id": "cbr_f101_2026-07-01",
+    "page": "актив, сч. 501, исходящий остаток итого"
+   }
+  },
+  "andebt_debt": {
+   "v": 277.3,
+   "src": {
+    "doc_id": "ydex_pr_2q26",
+    "page": "19"
+   }
+  },
+  "andebt_lease": {
+   "v": 25.7,
+   "src": {
+    "doc_id": "ydex_pr_2q26",
+    "page": "19"
+   }
+  },
+  "andebt_cash": {
+   "v": 296,
+   "src": {
+    "doc_id": "ydex_pr_2q26",
+    "page": "19"
+   }
+  },
+  "adj_net_debt": {
+   "v": 7,
+   "src": {
+    "doc_id": "ydex_pr_2q26",
+    "page": "19"
+   }
+  },
+  "rou_premises": {
+   "v": 63.23,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "20"
+   }
+  },
+  "rou_cars": {
+   "v": 19.536,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "20"
+   }
+  },
+  "rou_land": {
+   "v": 8.618,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "20"
+   }
+  },
+  "rou_other": {
+   "v": 0.177,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "20"
+   }
+  },
+  "rou_total": {
+   "v": 91.561,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "20"
+   }
+  },
+  "debt": {
+   "v": 277.302,
+   "calc": "bs_debt_nc + bs_debt_c"
+  },
+  "lease_total": {
+   "v": 92.697,
+   "calc": "bs_lease_nc + bs_lease_c"
+  },
+  "lease_nonoffice": {
+   "v": 25.748297,
+   "calc": "аренда всего − операционная (офисы): машины с выкупом и склады"
+  },
+  "fs_liabilities": {
+   "v": 333.392,
+   "calc": "долгоср. + краткоср."
+  },
+  "loans_customers": {
+   "v": 133.508,
+   "calc": "внеоборотные + оборотные"
+  },
+  "debt_securities": {
+   "v": 46.934,
+   "calc": "внеоборотные + оборотные"
+  },
+  "bank_money": {
+   "v": 202.925449,
+   "calc": "устав, раздел 4: обязательства ФС + капитал банка (ф.123) − кредиты клиентам − долговые бумаги"
+  },
+  "f101_liquidity": {
+   "v": 198.745281,
+   "calc": "ф.101: 301 + 302 + 319 + 32.1 − резерв 32.1 + 32.2 (сверка денег банка)"
+  },
+  "net_debt_company": {
+   "v": 7.026297,
+   "calc": "долг + аренда машин и складов − все деньги группы (скорр. чистый долг компании из строк баланса)"
+  },
+  "net_debt_nonbank": {
+   "v": 209.951746,
+   "calc": "net_debt_company + bank_money"
+  },
+  "nwc_nonbank": {
+   "v": -59.699,
+   "calc": "методика §4.10 и раздел 4 рабочего файла: запасы + торговая ДЗ + авансы выданные + НДС к возмещению + незавершённые расчёты + контентные активы + прочие оборотные активы без авансов по налогу на прибыль, чистых инвестиций в аренду, финансовых вложений и выданных займов − кредиторская задолженность (с финансированием поставок) − прочие налоги − обязательства по договорам − оценочные обязательства"
+  },
+  "bridge_fin_investments": {
+   "v": 10.005,
+   "calc": "вложения в прочие финансовые активы (актив моста)"
+  },
+  "bridge_loans_issued": {
+   "v": 3.353,
+   "calc": "займы выданные, оборотные: сотрудникам + третьим лицам + связанным (актив моста)"
+  },
+  "loans_issued_noncurrent": {
+   "v": 15.472,
+   "calc": "займы выданные, внеоборотные (в прочих внеоборотных активах; решением раздела 4 не названы)"
+  },
+  "bridge_autoru_receivable": {
+   "v": 3.5,
+   "calc": "остаток оплаты за Авто.ру к получению: вознаграждение − получено (актив моста)"
+  }
+ },
+ "2026-09-30": {
+  "bs_cash": {
+   "v": 318.184,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W23"
+   }
+  },
+  "bs_debt_nc": {
+   "v": 203.805,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W29"
+   }
+  },
+  "bs_debt_c": {
+   "v": 92.56,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W36"
+   }
+  },
+  "bs_lease_nc": {
+   "v": 66.975,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W30"
+   }
+  },
+  "bs_lease_c": {
+   "v": 21.222,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W42"
+   }
+  },
+  "bs_fs_liabilities_nc": {
+   "v": 25.17,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W32"
+   }
+  },
+  "bs_fs_liabilities_c": {
+   "v": 408.53,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W37"
+   }
+  },
+  "bs_loans_customers_nc": {
+   "v": 53.936,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W12"
+   }
+  },
+  "bs_loans_customers_c": {
+   "v": 104.377,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W20"
+   }
+  },
+  "bs_debt_securities_nc": {
+   "v": 58.742,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W13"
+   }
+  },
+  "bs_debt_securities_c": {
+   "v": 9.531,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W21"
+   }
+  },
+  "bs_content_assets": {
+   "v": 50.484,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W10"
+   }
+  },
+  "bs_inventories": {
+   "v": 55.876,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W16"
+   }
+  },
+  "bs_trade_receivables": {
+   "v": 99.392,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W17"
+   }
+  },
+  "bs_advances_paid": {
+   "v": 35.11,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W18"
+   }
+  },
+  "bs_vat_receivable": {
+   "v": 54.467,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W19"
+   }
+  },
+  "bs_unsettled_receivables": {
+   "v": 12.504,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W22"
+   }
+  },
+  "bs_other_c_assets": {
+   "v": 29.524,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W24"
+   }
+  },
+  "bs_payables": {
+   "v": 223.979,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W35"
+   }
+  },
+  "bs_taxes_payable": {
+   "v": 69.599,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W38"
+   }
+  },
+  "bs_contract_liabilities": {
+   "v": 41.165,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W39"
+   }
+  },
+  "bs_provisions": {
+   "v": 46.166,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W40"
+   }
+  },
+  "lease_office_c": {
+   "v": 13.426329,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W48"
+   }
+  },
+  "lease_office_nc": {
+   "v": 51.34779,
+   "src": {
+    "doc_id": "ydex_databook_2026q3",
+    "page": "ОФП!W49"
+   }
+  },
+  "bank_capital_f123": {
+   "v": 52.159127,
+   "src": {
+    "doc_id": "cbr_f123_2026-10-01",
+    "page": "стр. 000"
+   }
+  },
+  "f101_301": {
+   "v": 68.431701,
+   "src": {
+    "doc_id": "cbr_f101_2026-10-01",
+    "page": "актив, сч. 301, исходящий остаток итого"
+   }
+  },
+  "f101_302": {
+   "v": 10.524976,
+   "src": {
+    "doc_id": "cbr_f101_2026-10-01",
+    "page": "актив, сч. 302, исходящий остаток итого"
+   }
+  },
+  "f101_319": {
+   "v": 0,
+   "src": {
+    "doc_id": "cbr_f101_2026-10-01",
+    "page": "актив, сч. 319, исходящий остаток итого"
+   }
+  },
+  "f101_321": {
+   "v": 120.948676,
+   "src": {
+    "doc_id": "cbr_f101_2026-10-01",
+    "page": "актив, сч. 32.1, исходящий остаток итого"
+   }
+  },
+  "f101_reserve_321": {
+   "v": 0.923476,
+   "src": {
+    "doc_id": "cbr_f101_2026-10-01",
+    "page": "пассив, сч. 32.1, исходящий остаток итого"
+   }
+  },
+  "f101_322": {
+   "v": 48.000505,
+   "src": {
+    "doc_id": "cbr_f101_2026-10-01",
+    "page": "актив, сч. 32.2, исходящий остаток итого"
+   }
+  },
+  "f101_501": {
+   "v": 67.9786,
+   "src": {
+    "doc_id": "cbr_f101_2026-10-01",
+    "page": "актив, сч. 501, исходящий остаток итого"
+   }
+  },
+  "andebt_debt": {
+   "v": 296.4,
+   "src": {
+    "doc_id": "ydex_pr_3q26",
+    "page": "19"
+   }
+  },
+  "andebt_lease": {
+   "v": 23.4,
+   "src": {
+    "doc_id": "ydex_pr_3q26",
+    "page": "19"
+   }
+  },
+  "andebt_cash": {
+   "v": 318.2,
+   "src": {
+    "doc_id": "ydex_pr_3q26",
+    "page": "19"
+   }
+  },
+  "adj_net_debt": {
+   "v": 1.6,
+   "src": {
+    "doc_id": "ydex_pr_3q26",
+    "page": "19"
+   }
+  },
+  "debt": {
+   "v": 296.365,
+   "calc": "bs_debt_nc + bs_debt_c"
+  },
+  "lease_total": {
+   "v": 88.197,
+   "calc": "bs_lease_nc + bs_lease_c"
+  },
+  "lease_nonoffice": {
+   "v": 23.422881,
+   "calc": "аренда всего − операционная (офисы): машины с выкупом и склады"
+  },
+  "fs_liabilities": {
+   "v": 433.7,
+   "calc": "долгоср. + краткоср."
+  },
+  "loans_customers": {
+   "v": 158.313,
+   "calc": "внеоборотные + оборотные"
+  },
+  "debt_securities": {
+   "v": 68.273,
+   "calc": "внеоборотные + оборотные"
+  },
+  "bank_money": {
+   "v": 259.273127,
+   "calc": "устав, раздел 4: обязательства ФС + капитал банка (ф.123) − кредиты клиентам − долговые бумаги"
+  },
+  "f101_liquidity": {
+   "v": 246.982382,
+   "calc": "ф.101: 301 + 302 + 319 + 32.1 − резерв 32.1 + 32.2 (сверка денег банка)"
+  },
+  "net_debt_company": {
+   "v": 1.603881,
+   "calc": "долг + аренда машин и складов − все деньги группы (скорр. чистый долг компании из строк баланса)"
+  },
+  "net_debt_nonbank": {
+   "v": 260.877008,
+   "calc": "net_debt_company + bank_money"
+  }
+ },
+ "debt_history": {
+  "2023-12-31": {
+   "v": 140.872,
+   "calc": "валовой долг на дату"
+  },
+  "2024-06-30": {
+   "v": 144.862,
+   "calc": "валовой долг на дату"
+  },
+  "2024-09-30": {
+   "v": 193.98,
+   "calc": "валовой долг на дату"
+  },
+  "2024-12-31": {
+   "v": 260.057,
+   "calc": "валовой долг на дату"
+  },
+  "2025-03-31": {
+   "v": 255.534,
+   "calc": "валовой долг на дату"
+  },
+  "2025-06-30": {
+   "v": 249.768,
+   "calc": "валовой долг на дату"
+  },
+  "2025-09-30": {
+   "v": 255.9,
+   "calc": "валовой долг на дату"
+  },
+  "2025-12-31": {
+   "v": 269.672,
+   "calc": "валовой долг на дату"
+  },
+  "2026-03-31": {
+   "v": 249.972,
+   "calc": "валовой долг на дату"
+  },
+  "2026-06-30": {
+   "v": 277.302,
+   "calc": "валовой долг на дату"
+  },
+  "2026-09-30": {
+   "v": 296.365,
+   "calc": "валовой долг на дату"
+  }
+ },
+ "asset_classes": {
+  "ppe_2026-06-30": {
+   "infra": {
+    "gross": {
+     "v": 342.4,
+     "src": {
+      "doc_id": "ydex_ifrs_6m2026",
+      "page": "22"
+     }
+    },
+    "life_min": {
+     "v": 3,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    },
+    "life_max": {
+     "v": 10,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    }
+   },
+   "office": {
+    "gross": {
+     "v": 28.319,
+     "src": {
+      "doc_id": "ydex_ifrs_6m2026",
+      "page": "22"
+     }
+    },
+    "life_min": {
+     "v": 3,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    },
+    "life_max": {
+     "v": 3,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    }
+   },
+   "leasehold": {
+    "gross": {
+     "v": 12.377,
+     "src": {
+      "doc_id": "ydex_ifrs_6m2026",
+      "page": "22"
+     }
+    },
+    "life_min": {
+     "v": 5,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    },
+    "life_max": {
+     "v": 5,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    }
+   },
+   "land_buildings": {
+    "gross": {
+     "v": 16.617,
+     "src": {
+      "doc_id": "ydex_ifrs_6m2026",
+      "page": "22"
+     }
+    },
+    "life_min": {
+     "v": 10,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    },
+    "life_max": {
+     "v": 20,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    }
+   },
+   "other": {
+    "gross": {
+     "v": 28.666,
+     "src": {
+      "doc_id": "ydex_ifrs_6m2026",
+      "page": "22"
+     }
+    },
+    "life_min": {
+     "v": 2,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    },
+    "life_max": {
+     "v": 10,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "21"
+     }
+    }
+   },
+   "cip": {
+    "gross": {
+     "v": 154.621,
+     "src": {
+      "doc_id": "ydex_ifrs_6m2026",
+      "page": "22"
+     }
+    }
+   }
+  },
+  "intangibles_2025-12-31": {
+   "trademarks": {
+    "gross": {
+     "v": 13.028,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "39"
+     }
+    },
+    "life_min": {
+     "v": 3,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    },
+    "life_max": {
+     "v": 10,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    }
+   },
+   "customers": {
+    "gross": {
+     "v": 16.498,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "39"
+     }
+    },
+    "life_min": {
+     "v": 5,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    },
+    "life_max": {
+     "v": 16,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    }
+   },
+   "technology": {
+    "gross": {
+     "v": 33.683,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "39"
+     }
+    },
+    "life_min": {
+     "v": 1,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    },
+    "life_max": {
+     "v": 6,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    }
+   },
+   "other": {
+    "gross": {
+     "v": 0.238,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "39"
+     }
+    },
+    "life_min": {
+     "v": 5,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    },
+    "life_max": {
+     "v": 5,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "22"
+     }
+    }
+   },
+   "cip": {
+    "gross": {
+     "v": 2.106,
+     "src": {
+      "doc_id": "ydex_ifrs_fy2025",
+      "page": "39"
+     }
+    }
+   }
+  }
+ },
+ "floater_spread": {
+  "1R3": {
+   "v": 1.45,
+   "src": {
+    "doc_id": "moex_bond_ydex_1p3",
+    "page": "COUPON_BENCHMARK_SPREAD"
+   }
+  },
+  "1R4": {
+   "v": 1.25,
+   "src": {
+    "doc_id": "moex_bond_ydex_1p4",
+    "page": "COUPON_BENCHMARK_SPREAD"
+   }
+  }
+ }
+}

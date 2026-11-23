@@ -1,0 +1,143 @@
+{
+ "unit": "mln_shares",
+ "2026-06-30": {
+  "shares_issued": {
+   "v": 396.907079,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "29"
+   }
+  },
+  "shares_admin": {
+   "v": 16.021827,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "29"
+   }
+  },
+  "shares_outstanding": {
+   "v": 380.885255,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "29"
+   }
+  },
+  "options_outstanding": {
+   "v": 34.940515,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  },
+  "options_exercisable": {
+   "v": 13.297182,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "14"
+   }
+  }
+ },
+ "2025-12-31": {
+  "shares_issued": {
+   "v": 394.967916,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "29"
+   }
+  },
+  "shares_admin": {
+   "v": 14.184373,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "29"
+   }
+  },
+  "shares_outstanding": {
+   "v": 380.783546,
+   "src": {
+    "doc_id": "ydex_ifrs_6m2026",
+    "page": "29"
+   }
+  },
+  "options_outstanding": {
+   "v": 35.521117,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2025",
+    "page": "29"
+   }
+  },
+  "options_exercisable": {
+   "v": 11.248873,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2025",
+    "page": "29"
+   }
+  }
+ },
+ "2024-12-31": {
+  "shares_outstanding": {
+   "v": 373.391901,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2024",
+    "page": "50"
+   }
+  }
+ },
+ "2023-12-31": {
+  "shares_outstanding": {
+   "v": 379.453797,
+   "src": {
+    "doc_id": "ydex_ifrs_fy2024",
+    "page": "50"
+   }
+  }
+ },
+ "dividends": [
+  {
+   "for": "2025",
+   "per_share_rub": {
+    "v": 110,
+    "src": {
+     "doc_id": "ydex_ifrs_6m2026",
+     "page": "30"
+    }
+   },
+   "total_bn_rub": {
+    "v": 42.002,
+    "src": {
+     "doc_id": "ydex_ifrs_6m2026",
+     "page": "30"
+    }
+   },
+   "paid": "2026Q2",
+   "note": "выплачен до якоря (МСФО 6М2026, стр. 30)"
+  },
+  {
+   "for": "2026H1",
+   "per_share_rub": {
+    "v": 110,
+    "src": {
+     "doc_id": "ydex_div_rec_2026h1",
+     "page": "1"
+    }
+   },
+   "total_bn_rub": {
+    "v": 42,
+    "src": {
+     "doc_id": "ydex_pr_3q26",
+     "page": "3"
+    }
+   },
+   "record_date": "2026-09-21",
+   "paid": "2026Q3",
+   "paid_bn_rub": {
+    "v": 41.758,
+    "src": {
+     "doc_id": "ydex_databook_2026q3",
+     "page": "ОДДС!AG20"
+    }
+   },
+   "note": "требование с отсечки 21.09.2026 (устав, раздел 4); дата — рекомендация СД (src в per_share_rub)"
+  }
+ ]
+}

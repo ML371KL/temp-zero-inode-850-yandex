@@ -1,0 +1,13 @@
+{
+"securities": {
+	"columns": ["SECID", "SHORTNAME", "ISIN", "PREVPRICE", "PREVLEGALCLOSEPRICE", "PREVDATE"], 
+	"data": [
+		["YDEX", "ЯНДЕКС", "RU000A107T19", 3277.5, 3291, "2026-11-20"]
+	]
+},
+"marketdata": {
+	"columns": ["SECID", "LAST", "TIME", "UPDATETIME", "SYSTIME", "TRADINGSTATUS"], 
+	"data": [
+		["YDEX", 3281, "20:42:36", "20:42:36", "2026-11-23 20:57:37", "T"]
+	]
+}}

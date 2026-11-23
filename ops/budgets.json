@@ -1,0 +1,63 @@
+{
+ "about": "Время шагов тактов на сервере, из которого считаются потолки юнитов (RuntimeMaxSec) и ожидание замка (LOCK_WAIT_SECONDS в ops/run.sh). Потолок юнита = ceil(сумма шагов × safety / round_to) × round_to, у collect и daily плюс ожидание замка = потолок rebuild. Равенство с ops/systemd/*.service и run.sh сверяет tests/test_ops_units.py. ОЦЕНКА: числа шагов — замер образца сервера 30.09.2026 (его шаг нау-каста и здоровья — здесь health), не Яндекса; тесты такта и прогон «в будущем» (те же тесты с FAKE_TODAY) — замер ноутбука одним процессом (laptop.tact_tests_one_process, 302 с), сборка — не ниже полной сборки ноутбука (full_build, 714 с). Ноутбук — блок laptop: тесты такта одним процессом (как у образца, решение ведущего 24.11.2026) 302 с, сборка с --fast 192 с; полная сборка и её память — блок full_build (замер ведущего на ноутбуке: 714 с, 12 процессов, ≈ 230 МБ). Порядок: первый суточный такт руками на сервере (ops/README.md, «Установка», шаг 6) → время шагов из журнала → сюда, status=measured и measured_on → потолки юнитов и LOCK_WAIT_SECONDS → юниты заново — до включения таймеров.",
+ "status": "estimate",
+ "measured_on": null,
+ "safety": 1.5,
+ "round_to": 60,
+ "seconds": {
+  "pip": 120,
+  "collect_morning": 300,
+  "future_tests": 302,
+  "archive_status_health": 60,
+  "collect_evening": 420,
+  "health": 60,
+  "tact_tests": 302,
+  "build": 720,
+  "publish": 120,
+  "verify_timeout": 600,
+  "prune": 60
+ },
+ "units": {
+  "rebuild": [
+   "pip",
+   "tact_tests",
+   "build",
+   "publish",
+   "verify_timeout",
+   "prune"
+  ],
+  "daily": [
+   "pip",
+   "collect_evening",
+   "health",
+   "tact_tests",
+   "build",
+   "publish",
+   "verify_timeout",
+   "prune"
+  ],
+  "collect": [
+   "pip",
+   "collect_morning",
+   "future_tests",
+   "archive_status_health"
+  ]
+ },
+ "lock_wait_unit": "rebuild",
+ "tact_tests_target": 180,
+ "laptop": {
+  "measured_on": "2026-11-23",
+  "cores": 8,
+  "how": "сухой прогон ops/run.sh daily в песочнице (задача 16)",
+  "tact_tests_one_process": 302,
+  "build_fast": 192,
+  "full_tests_one_process": 1440
+ },
+ "full_build": {
+  "seconds": 714,
+  "memory_peak_mb": 230,
+  "workers": 12,
+  "measured_on": "2026-11-24",
+  "how": "замер ведущего на ноутбуке: полная сборка выпуска книги 1.4 (выпуск dabec401586e; 2 000 прогонов, развилки с перевыводом); память — дерево процессов, пик по опросу раз в секунду, при MemoryMax=512M"
+ }
+}

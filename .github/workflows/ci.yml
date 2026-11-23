@@ -1,0 +1,55 @@
+name: ci
+
+# Проверка кода на push и PR в main. Коммит, меняющий только *.md, не будит:
+# его проверяет docs.yml (тесты с меткой docs). Сеть не трогаем (метка
+# network): красный CI должен означать ошибку кода, а не доступность
+# источников с раннера.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["**/*.md"]
+  pull_request:
+    branches: [main]
+    paths-ignore: ["**/*.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: "1"
+  PYTHONIOENCODING: utf-8
+  # «Сегодня» ядра и сборщиков — день по Москве, фиксированное UTC+3 в коде
+  # (model.book.today); TZ — только для отметок времени инструментов, как в конвейере.
+  TZ: Europe/Moscow
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Зависимости
+        run: python -m pip install --quiet -r requirements.txt
+
+      - name: Тесты
+        # -rs: причина каждого пропуска — в журнале (тест пересборки фактов с меткой
+        # primary здесь пропускается: первички и openpyxl на раннере нет).
+        run: python -m pytest -q -rs -m "not network"
+
+      - name: Сборка выпуска на входах книги
+        run: python ops/build_release.py --book --fast --out var/release/latest.json
+
+      - name: Проверка контракта
+        run: python ops/build_release.py --check var/release/latest.json
